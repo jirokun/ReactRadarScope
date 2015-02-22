@@ -1,0 +1,53 @@
+.radar-scope {
+  display: table-row;
+
+  & > * {
+    display: table-cell;
+    vertical-align: top;
+  }
+  & > span {
+    vertical-align: middle;
+  }
+  .list-container {
+    > div {
+      border: 1px solid #bce8f1;
+    }
+    h3 {
+      margin: 0;
+      height: 20px;
+      color: #31708f;
+      background-color: #d9edf7;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: medium;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      height: 610px;
+      overflow: auto;
+      li {
+        cursor: pointer;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: 1px solid #ddd;
+        &:hover {
+          background-color: #f5f5f5;
+        }
+      }
+    }
+    .oss-container {
+      width: 250px;
+      ul.oss-list {
+        li {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
