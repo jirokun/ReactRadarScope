@@ -1,26 +1,23 @@
 var React = require('react');
 var RadarStore = require('../stores/RadarStore');
+var xmlns = "http://www.w3.org/2000/svg";
+var smilSupport = !!document.createElementNS(xmlns, 'animateTransform').beginElement;
 
 var Dot = React.createClass({
-  componentWillMount: function() {
-    RadarStore.addStoreChangeListener(this._radarStoreChange);
-  },
-  componentWillUnmount: function() {
-    RadarStore.removeStoreChangeListener(this._radarStoreChange);
-  },
   componentWillReceiveProps: function(nextProps) {
     this._prevX = this.props.x;
     this._prevY = this.props.y;
   },
   componentDidUpdate: function() {
+    if (!smilSupport) return;
     if (this._prevX === this.props.x && this._prevY === this.props.y) return;
-    var xmlns = "http://www.w3.org/2000/svg";
     var el = document.createElementNS(xmlns, 'animateTransform');
     el.setAttributeNS(null, 'attributeName', 'transform');
     el.setAttributeNS(null, 'type', 'translate');
     el.setAttributeNS(null, 'dur', '1s');
     el.setAttributeNS(null, 'from', this._prevX + ',' + this._prevY);
     el.setAttributeNS(null, 'to', this.props.x + ',' + this.props.y);
+    el.setAttributeNS(null, 'fill', 'freeze');
     el.setAttributeNS(null, 'begin', 'indefinite');
     el.setAttributeNS(null, 'end', 'indefinite');
     var g = this.refs.g.getDOMNode().appendChild(el);
@@ -30,9 +27,6 @@ var Dot = React.createClass({
     }
     this.refs.g.getDOMNode().appendChild(el);
     el.beginElement();
-  },
-  _radarStoreChange: function() {
-    this.forceUpdate();
   },
   _selectedCircle: function(key) {
     var circleStyle = {
@@ -57,12 +51,18 @@ var Dot = React.createClass({
       fontSize: '9px',
       fontWeight: 'bold'
     };
-    var transform = 'translate(' + this.props.x + ',' + this.props.y + ')';
+    if (!smilSupport || !this._prevX) {
+      var transform = 'translate(' + this.props.x + ',' + this.props.y + ')';
+    } else {
+      var transform = 'translate(' + this._prevX + ',' + this._prevY + ')';
+    }
     var key = "dot-" + this.props.num;
-    var svg = '<circle r="8" style="fill: ' + this.props.fill + ';stroke: ' + this.props.fill + ';"></circle>'
-      + '<text y="3" style="font-family: Arial; stroke: none; fill: #ffffff; text-anchor: middle; font-size: 9px; font-weight: bold">' + this.props.num + '</text>'
     return (
-      <g key={key} ref="g" transform={transform} dangerouslySetInnerHTML={{__html: svg}}></g>
+      <g key={key} ref="g" transform={transform}>
+        {this._selectedCircle()}
+        <circle key={key + '-circle'} r="8" style={circleStyle}></circle>
+        <text key={key + '-text'} y="3" style={textStyle}>{this.props.num}</text>
+      </g>
     );
   },
 

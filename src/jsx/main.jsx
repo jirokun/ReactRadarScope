@@ -2,9 +2,9 @@ var React = require('react');
 var Radar = require('./components/Radar.jsx');
 var OssList = require('./components/OssList.jsx');
 var Calendar = require('./components/Calendar.jsx');
-var request = require('superagent');
-var async = require('async');
 var Constants = require('./Constants');
+var RadarStore = require('./stores/RadarStore');
+var RadarAction = require('./actions/RadarAction');
 require('date-utils');
 
 var Router = require('react-router'); 
@@ -19,45 +19,38 @@ var Main = React.createClass({
     return {
       categories: [],
       ranking: [],
-      products: []
+      products: [],
+      dotPosition: []
     };
   },
+  componentWillMount: function() {
+    RadarStore.addStoreChangeListener(this._radarStoreChange);
+  },
+  componentWillUnmount: function() {
+    RadarStore.removeStoreChangeListener(this._radarStoreChange);
+  },
   componentDidMount: function() {
-    this._loadData();
-  },
-  componentWillReceiveProps: function() {
-    this._loadData();
-  },
-  shouldComponentUpdate: function() {
-    return this.state.yearMonth === undefined || (this.state.yearMonth !== this.getParams().yearMonth);
-  },
-  _loadData: function() {
-    var _this = this;
     var yearMonth = this.getParams().yearMonth;
     if (!yearMonth) {
       yearMonth = new Date().toFormat(Constants.YEAR_MONTH_FORMAT);
     }
-    async.map([
-        Constants.ROOT_PATH + yearMonth +  '.json',
-        Constants.ROOT_PATH + 'categories.json',
-        Constants.ROOT_PATH + 'products.json'], function(url, cb) {
-      request.get(url).end(function(res) { cb(null, res); });
-    }, function(err, responses) {
-      for (var i = 0, len = responses.length; i < len; i++) {
-        if (responses[i].error) {
-          return;
-        }
-      }
-      var ranking = responses[0].body;
-      var categories = responses[1].body;
-      var products = responses[2].body;
-      _this.setState({
-        yearMonth: yearMonth,
-        products: products,
-        ranking: ranking,
-        categories: categories
-      });
+    RadarAction.loadData(yearMonth);
+  },
+  componentWillReceiveProps: function() {
+    RadarAction.loadData(this.getParams().yearMonth);
+  },
+  shouldComponentUpdate: function() {
+    return true;
+  },
+  _radarStoreChange: function() {
+    this.setState({
+      categories: RadarStore.getCategories(),
+      products: RadarStore.getProducts(),
+      ranking: RadarStore.getRanking(),
+      dotPosition: RadarStore.getDotPosition()
     });
+  },
+  _loadData: function() {
   },
   render: function() {
     return (
@@ -66,7 +59,7 @@ var Main = React.createClass({
         <span key="radar-scope-arrow1" className="glyphicon glyphicon-chevron-right"></span>
         <OssList products={this.state.products} ranking={this.state.ranking}/>
         <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
-        <Radar categories={this.state.categories} products={this.state.products} ranking={this.state.ranking}/>
+        <Radar categories={this.state.categories} dotPosition={this.state.dotPosition}/>
       </div>
     );
   }

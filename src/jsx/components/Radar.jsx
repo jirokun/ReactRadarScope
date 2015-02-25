@@ -8,7 +8,7 @@ var Radar = React.createClass({
     return (
       <svg key="Radar" width={Constants.RADER_WIDTH} height={Constants.RADER_HEIGHT}>
         <RadarBackground categories={this.props.categories}/>
-        <RadarForeground categories={this.props.categories} products={this.props.products} ranking={this.props.ranking}/>
+        <RadarForeground dotPosition={this.props.dotPosition}/>
       </svg>
     );
   }
