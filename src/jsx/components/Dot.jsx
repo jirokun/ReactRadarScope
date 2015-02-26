@@ -1,7 +1,18 @@
 var React = require('react');
 var RadarStore = require('../stores/RadarStore');
+var RadarAction = require('../actions/RadarAction');
 var xmlns = "http://www.w3.org/2000/svg";
 var smilSupport = !!document.createElementNS(xmlns, 'animateTransform').beginElement;
+
+var selectedTextStyle = {
+  fontFamily: 'Arial',
+  stroke: 'none',
+  fill: '#ffffff',
+  fontSize: '9px',
+  dominantBaseline: 'text-before-edge',
+  fontWeight: 'bold'
+};
+
 
 var Dot = React.createClass({
   componentWillReceiveProps: function(nextProps) {
@@ -38,6 +49,9 @@ var Dot = React.createClass({
     return this.props.product.id == RadarStore.getSelectedOss() ?
       <circle key={key + "-circle-selected"} r="13" style={circleStyle}></circle> : null;
   },
+  _onMouseOver: function(e) {
+    RadarAction.updateSelectedOss(this.props.product.id);
+  },
   render: function() {
     var circleStyle = {
       fill: this.props.fill,
@@ -59,9 +73,9 @@ var Dot = React.createClass({
     var key = "dot-" + this.props.num;
     return (
       <g key={key} ref="g" transform={transform}>
-        {this._selectedCircle()}
-        <circle key={key + '-circle'} r="8" style={circleStyle}></circle>
-        <text key={key + '-text'} y="3" style={textStyle}>{this.props.num}</text>
+        {this._selectedCircle(key)}
+        <circle key={key + '-circle'} r="8" style={circleStyle} onMouseOver={this._onMouseOver}></circle>
+        <text key={key + '-text'} y="3" style={textStyle} onMouseOver={this._onMouseOver}>{this.props.num}</text>
       </g>
     );
   },

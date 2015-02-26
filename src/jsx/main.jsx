@@ -2,6 +2,7 @@ var React = require('react');
 var Radar = require('./components/Radar.jsx');
 var OssList = require('./components/OssList.jsx');
 var Calendar = require('./components/Calendar.jsx');
+var FloatingLabel = require('./components/FloatingLabel');
 var Constants = require('./Constants');
 var RadarStore = require('./stores/RadarStore');
 var RadarAction = require('./actions/RadarAction');
@@ -16,11 +17,14 @@ var RouteHandler = Router.RouteHandler;
 var Main = React.createClass({
   mixins: [ Router.State ],
   getInitialState: function() {
+    var yearMonth = this.getParams().yearMonth;
+    if (!yearMonth) yearMonth = new Date().toFormat(Constants.YEAR_MONTH_FORMAT);
     return {
       categories: [],
       ranking: [],
       products: [],
-      dotPosition: []
+      dotPosition: [],
+      yearMonth: yearMonth
     };
   },
   componentWillMount: function() {
@@ -30,17 +34,14 @@ var Main = React.createClass({
     RadarStore.removeStoreChangeListener(this._radarStoreChange);
   },
   componentDidMount: function() {
-    var yearMonth = this.getParams().yearMonth;
-    if (!yearMonth) {
-      yearMonth = new Date().toFormat(Constants.YEAR_MONTH_FORMAT);
-    }
-    RadarAction.loadData(yearMonth);
+    RadarAction.loadData(this.state.yearMonth);
   },
   componentWillReceiveProps: function() {
-    RadarAction.loadData(this.getParams().yearMonth);
-  },
-  shouldComponentUpdate: function() {
-    return true;
+    var yearMonth = this.getParams().yearMonth;
+    RadarAction.loadData(yearMonth);
+    this.setState({
+      yearMonth: yearMonth
+    });
   },
   _radarStoreChange: function() {
     this.setState({
@@ -53,13 +54,19 @@ var Main = React.createClass({
   _loadData: function() {
   },
   render: function() {
+    var radarContainerStyle = {
+      position: 'relative'
+    };
     return (
       <div key="rader-scope-main" className="radar-scope">
         <Calendar/>
         <span key="radar-scope-arrow1" className="glyphicon glyphicon-chevron-right"></span>
-        <OssList products={this.state.products} ranking={this.state.ranking}/>
+        <OssList products={this.state.products} ranking={this.state.ranking} dotPosition={this.state.dotPosition} yearMonth={this.state.yearMonth}/>
         <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
-        <Radar categories={this.state.categories} dotPosition={this.state.dotPosition}/>
+        <div style={radarContainerStyle}>
+          <Radar categories={this.state.categories} dotPosition={this.state.dotPosition}/>
+          <FloatingLabel dotPosition={this.state.dotPosition}/>
+        </div>
       </div>
     );
   }

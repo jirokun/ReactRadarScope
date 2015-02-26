@@ -3,24 +3,43 @@ var RadarAction = require('../actions/RadarAction');
 var RadarStore = require('../stores/RadarStore');
 
 var OssList = React.createClass({
+  componentDidUpdate: function() {
+    // 選択されているOSSが表示されるようにscrollTopを変更する
+    var selectedOssId = RadarStore.getSelectedOss();
+    if (!selectedOssId) return;
+    var el = this.refs[selectedOssId].getDOMNode();
+    var listContainer = this.refs.listContainer.getDOMNode();
+    var scrollTop = parseInt(listContainer.scrollTop, 10);
+    var targetTop = parseInt(el.style.top, 10);
+    if (scrollTop > targetTop || scrollTop + 610 < targetTop) {
+      listContainer.scrollTop = targetTop;
+    }
+  },
   _lists: function() {
     var _this = this;
     var ranks = {};
-    this.props.ranking.forEach(function(oss, i) {
-      ranks[oss.id] = {
+    this.props.dotPosition.forEach(function(pos, i) {
+      ranks[pos.product.id] = {
         rank: i + 1,
+        color: pos.color,
         top: i * 20
       };
     });
+
     return this.props.products.map(function(oss, i) {
       var style = {
         position: 'absolute',
+        color: ranks[oss.id].color,
         width: '100%',
         transition: 'top 1s',
         top: ranks[oss.id].top + 'px'
       };
+      if (RadarStore.getSelectedOss() === oss.id) style.backgroundColor = '#f2dede';
       var label = ranks[oss.id].rank + '. ' + oss.name;
-      return <li key={'oss-' + oss.id} style={style} onMouseOver={_this._onMouseOver} data-ossid={oss.id}>{label}</li>
+      var url = "http://radar.oss.scsk.info/product/" + oss.id + "/summary/" + _this.props.yearMonth;
+      return <li ref={oss.id} key={'oss-' + oss.id} style={style} onMouseOver={_this._onMouseOver} data-ossid={oss.id}>
+        <a href={url}>{label}</a>
+      </li>
     });
   },
   _onMouseOver: function(e) {
@@ -35,7 +54,7 @@ var OssList = React.createClass({
       <div key="oss" className="list-container">
         <div key="oss-container" className="oss-container">
           <h3 key="oss-title">対象のOSS</h3>
-          <ul key="oss-list" className="oss-list" style={listStyle}>
+          <ul ref="listContainer" key="oss-list" className="oss-list" style={listStyle}>
             { this._lists() }
           </ul>
         </div>

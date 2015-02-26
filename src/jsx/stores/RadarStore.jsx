@@ -155,7 +155,7 @@ RadarStore.setMaxListeners(160);
 RadarDispatcher.register(function(payload) {
   switch(payload.actionType) {
     case Constants.UPDATE_SELECTED_OSS:
-      _selectedOss = payload.ossId;
+      _selectedOss = parseInt(payload.ossId, 10);
       RadarStore.emitChange();
       break;
     case Constants.LOAD_DATA:
