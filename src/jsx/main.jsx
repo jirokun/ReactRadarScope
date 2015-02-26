@@ -67,11 +67,8 @@ var Main = React.createClass({
 
 var routes = (
   <Route name="radar-scope" path={Constants.ROOT_PATH}>
-    <Route name="radarScope" path="radarScope/">
-      <Route name="yearMonth" path=":yearMonth" handler={Main}/>
-      <Route name="category" path="category/:categoryNum/:yearMonth" handler={Main}/>
-    </Route>
-    <DefaultRoute handler={Main} params={{yearMonth: '201502'}}/>
+    <Route name="radarScope" path="radarScope/:yearMonth" handler={Main}/>
+    <DefaultRoute handler={Main} />
   </Route>
 );
 
