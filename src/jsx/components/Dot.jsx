@@ -1,8 +1,8 @@
 var React = require('react');
-var RadarStore = require('../stores/RadarStore');
 var RadarAction = require('../actions/RadarAction');
 var xmlns = "http://www.w3.org/2000/svg";
-var smilSupport = !!document.createElementNS(xmlns, 'animateTransform').beginElement;
+var smilSupport = false;
+if (typeof(document) !== 'undefined') smilSupport = !!document.createElementNS(xmlns, 'animateTransform').beginElement;
 
 var selectedTextStyle = {
   fontFamily: 'Arial',
@@ -12,7 +12,6 @@ var selectedTextStyle = {
   dominantBaseline: 'text-before-edge',
   fontWeight: 'bold'
 };
-
 
 var Dot = React.createClass({
   componentWillReceiveProps: function(nextProps) {
@@ -46,7 +45,7 @@ var Dot = React.createClass({
       stroke: this.props.fill
     };
 
-    return this.props.product.id == RadarStore.getSelectedOss() ?
+    return this.props.product.id == this.props.selectedOssId ?
       <circle key={key + "-circle-selected"} r="13" style={circleStyle}></circle> : null;
   },
   _onMouseOver: function(e) {

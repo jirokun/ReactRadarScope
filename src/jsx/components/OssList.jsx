@@ -1,13 +1,11 @@
 var React = require('react');
 var RadarAction = require('../actions/RadarAction');
-var RadarStore = require('../stores/RadarStore');
 
 var OssList = React.createClass({
   componentDidUpdate: function() {
     // 選択されているOSSが表示されるようにscrollTopを変更する
-    var selectedOssId = RadarStore.getSelectedOss();
-    if (!selectedOssId) return;
-    var el = this.refs[selectedOssId].getDOMNode();
+    if (!this.props.selectedOssId) return;
+    var el = this.refs[this.props.selectedOssId].getDOMNode();
     var listContainer = this.refs.listContainer.getDOMNode();
     var scrollTop = parseInt(listContainer.scrollTop, 10);
     var targetTop = parseInt(el.style.top, 10);
@@ -34,7 +32,7 @@ var OssList = React.createClass({
         transition: 'top 1s',
         top: ranks[oss.id].top + 'px'
       };
-      if (RadarStore.getSelectedOss() === oss.id) style.backgroundColor = '#f2dede';
+      if (_this.props.selectedOssId === oss.id) style.backgroundColor = '#f2dede';
       var label = ranks[oss.id].rank + '. ' + oss.name;
       var url = "http://radar.oss.scsk.info/product/" + oss.id + "/summary/" + _this.props.yearMonth;
       return <li ref={oss.id} key={'oss-' + oss.id} style={style} onMouseOver={_this._onMouseOver} data-ossid={oss.id}>

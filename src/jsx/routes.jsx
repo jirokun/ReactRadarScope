@@ -1,0 +1,13 @@
+var React = require('react');
+var Router = require('react-router'); 
+var DefaultRoute = Router.DefaultRoute;
+var Route = Router.Route;
+var Constants = require('./Constants');
+var Main = require('./components/Main');
+
+module.exports = (
+  <Route name="radar-scope" path={Constants.ROOT_PATH}>
+    <Route name="radarScope" path="radarScope/:yearMonth" handler={Main}/>
+    <DefaultRoute handler={Main} />
+  </Route>
+);

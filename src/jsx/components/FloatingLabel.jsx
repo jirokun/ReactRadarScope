@@ -1,5 +1,4 @@
 var React = require('react');
-var RadarStore = require('../stores/RadarStore');
 var xmlns = "http://www.w3.org/2000/svg";
 
 var FloatingLabel = React.createClass({
@@ -9,11 +8,10 @@ var FloatingLabel = React.createClass({
     };
   },
   render: function() {
-    var ossId = RadarStore.getSelectedOss();
     var targetPos;
     for (var i = 0, len = this.props.dotPosition.length; i < len; i++) {
       var pos = this.props.dotPosition[i];
-      if (pos.product.id === ossId) {
+      if (pos.product.id === this.props.selectedOssId) {
         targetPos = pos;
         break;
       }
