@@ -4,11 +4,12 @@ var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
 var plumber = require('gulp-plumber');
+var react = require('gulp-react');
 var concat = require('gulp-concat');
 var sourcemaps = require('gulp-sourcemaps');
 var merge = require('event-stream').merge;
 
-gulp.task('build', ['copy', 'sass', 'webpack']);
+gulp.task('build', ['copy', 'react', 'sass', 'webpack']);
 
 gulp.task('webpack', function (callback) {
   var webpackConfig = require("./webpack.config.js");
@@ -18,6 +19,16 @@ gulp.task('webpack', function (callback) {
   });
   connect.reload();
   callback();
+});
+
+gulp.task('react', function() {
+  gulp.src('./src/jsx/**/*.jsx')
+    .pipe(sourcemaps.init())
+    .pipe(plumber())
+    .pipe(react())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./dist/jsx/'))
+    .pipe(connect.reload());
 });
 
 gulp.task('sass', function() {
@@ -40,7 +51,7 @@ gulp.task('copy', function () {
 
 gulp.task('watch', function () {
   gulp.watch('./src/scss/*.scss', ['sass']);
-  gulp.watch('./src/**/*.jsx', ['webpack']);
+  gulp.watch('./src/**/*.jsx', ['webpack', 'react']);
   gulp.watch('./src/www/**/*', ['copy']);
   gulp.watch('./dist/scripts/*-bundled.js', function(changedFile) {
     gulp.src(changedFile.path).pipe(connect.reload());
@@ -53,4 +64,4 @@ gulp.task('serve', function(){
     livereload: true
   });
 });
-gulp.task('default', ['build', 'watch', 'serve']);
+gulp.task('default', ['build', 'react', 'watch', 'serve']);
