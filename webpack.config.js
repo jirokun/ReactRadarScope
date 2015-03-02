@@ -4,7 +4,8 @@ var webpack = require("webpack");
 module.exports = {
   // This is the main file that should include all other JS files
   entry: {
-    main: './src/jsx/main.jsx',
+    client: './src/jsx/client.jsx',
+    server: './src/jsx/server.jsx',
   },
   target: "web",
   devtool: 'inline-source-map',

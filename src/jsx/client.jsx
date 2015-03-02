@@ -7,7 +7,6 @@ var Constants = require('./Constants');
 var RadarStore = require('./stores/RadarStore');
 
 Router.run(routes, Router.HistoryLocation, function (Handler, args) {
-  console.log(args.params);
   var yearMonth = args.params.yearMonth;
   if (!yearMonth) yearMonth = new Date().toFormat('YYYYMM');
   async.map([
