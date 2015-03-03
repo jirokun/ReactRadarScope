@@ -46,6 +46,7 @@
     "bootstrap": "^3.3.2",
     "colr": "^1.2.1",
     "date-utils": "^1.2.16",
+    "event-emitter": "^0.3.3",
     "flux": "^2.0.1",
     "node-uuid": "^1.4.2",
     "react": "^0.12.2",
