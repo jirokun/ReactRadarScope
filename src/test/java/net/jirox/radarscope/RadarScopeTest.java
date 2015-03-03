@@ -1,10 +1,12 @@
 package net.jirox.radarscope;
 
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -17,11 +19,7 @@ import net.jirox.radarscope.models.Category;
 import net.jirox.radarscope.models.Genre;
 import net.jirox.radarscope.models.Product;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
 import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.*;
 
 public class RadarScopeTest {
 	private Genre genreScsk = new Genre(1, "SCSK");
