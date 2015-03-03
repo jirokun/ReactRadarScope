@@ -1,9 +1,8 @@
 var RadarDispatcher = require('../dispatchers/RadarDispatcher');
-var EventEmitter = require('events').EventEmitter;
+var EventEmitter = require('event-emitter'); // node.jsのeventsを使用しないこと。Nashornでは使用できない
 var Constants = require('../Constants');
 var merge = require('react/lib/merge');
 var async = require('async');
-var request = require('superagent');
 var Colr = require('colr');
 
 var _selectedOss, _positionCache = {}, _colorCache = {};
@@ -114,7 +113,7 @@ function makeColorTable(ranking, categories) {
   return colorTable;
 }
 
-var RadarStore = merge(EventEmitter.prototype, {
+var RadarStore = EventEmitter({
   getSelectedOss: function() { return _selectedOss; },
   calcDotPosition: calcDotPosition,
   emitChange: function() {
@@ -127,7 +126,7 @@ var RadarStore = merge(EventEmitter.prototype, {
     this.removeListener(Constants.RADAR_STORE_CHANGE, callback);
   }
 });
-RadarStore.setMaxListeners(160);
+//RadarStore.setMaxListeners(160);
 
 RadarDispatcher.register(function(payload) {
   switch(payload.actionType) {

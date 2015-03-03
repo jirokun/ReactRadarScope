@@ -41,7 +41,10 @@ var OssList = React.createClass({
     });
   },
   _onMouseOver: function(e) {
-    var ossId = e.target.getAttribute('data-ossid');
+    var target;
+    if (e.target.tagName.toUpperCase() ==='A') target = e.target.parentNode;
+    else target = e.target;
+    var ossId = target.getAttribute('data-ossid');
     RadarAction.updateSelectedOss(ossId);
   },
   render: function() {

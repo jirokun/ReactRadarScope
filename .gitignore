@@ -1,3 +1,16 @@
+*.bak
+*.launch
+*.pydevproject
 *.swp
+*.tmp
+*~.nib
+.DS_Store
+.classpath
+.loadpath
+.metadata
+.project
+.settings/
 dist/
 node_modules/
+target/
+tmp/
