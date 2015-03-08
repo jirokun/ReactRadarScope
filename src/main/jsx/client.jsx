@@ -7,13 +7,29 @@ var Constants = require('./Constants');
 var RadarStore = require('./stores/RadarStore');
 
 Router.run(routes, Router.HistoryLocation, function (Handler, args) {
+  var urls, categoryId;
   var yearMonth = args.params.yearMonth;
+  var isChildCategory = !!args.params.categoryId;
   if (!yearMonth) yearMonth = new Date().toFormat('YYYYMM');
-  async.map([
+  if (isChildCategory) {
+    categoryId = args.params.categoryId;
+    urls = [
+      Constants.ROOT_PATH + 'category/' + categoryId + '/' + yearMonth +  '.json',
+      Constants.ROOT_PATH + 'categories/' + categoryId + '.json',
+      Constants.ROOT_PATH + 'products.json'
+    ];
+  } else {
+    categoryId = 'root';
+    urls = [
       Constants.ROOT_PATH + yearMonth +  '.json',
-      Constants.ROOT_PATH + 'categories.json',
-      Constants.ROOT_PATH + 'products.json'], function(url, cb) {
-    request.get(url).end(function(res) { cb(null, res); });
+      Constants.ROOT_PATH + 'categories/' + categoryId + '.json',
+      Constants.ROOT_PATH + 'products.json'
+    ];
+  }
+  async.map(urls, function(url, cb) {
+    request.get(url).end(function(res) {
+      cb(null, res);
+    });
   }, function(err, responses) {
     for (var i = 0, len = responses.length; i < len; i++) {
       if (responses[i].error) {
@@ -23,14 +39,15 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
     var ranking = responses[0].body;
     var categories = responses[1].body;
     var products = responses[2].body;
+    var dotPosition = RadarStore.calcDotPosition(args.path, yearMonth, ranking, categories, isChildCategory);
     var props = {
+      isChildCategory: isChildCategory,
       ranking: ranking,
       categories: categories,
       products: products,
       yearMonth: yearMonth,
-      dotPosition: RadarStore.calcDotPosition(yearMonth, ranking, categories)
+      dotPosition: dotPosition
     };
     React.render(<Handler {...props}/>, document.body);
   });
-
 });

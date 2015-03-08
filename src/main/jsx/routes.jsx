@@ -8,6 +8,7 @@ var Main = require('./components/Main');
 module.exports = (
   <Route name="radar-scope" path={Constants.ROOT_PATH}>
     <Route name="radarScope" path="radarScope/:yearMonth" handler={Main}/>
+    <Route name="radarScopeCategory" path="radarScope/category/:categoryId/:yearMonth" handler={Main}/>
     <DefaultRoute handler={Main} />
   </Route>
 );

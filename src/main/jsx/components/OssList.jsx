@@ -4,7 +4,7 @@ var RadarAction = require('../actions/RadarAction');
 var OssList = React.createClass({
   componentDidUpdate: function() {
     // 選択されているOSSが表示されるようにscrollTopを変更する
-    if (!this.props.selectedOssId) return;
+    if (!this.props.selectedOssId || !this.refs[this.props.selectedOssId]) return;
     var el = this.refs[this.props.selectedOssId].getDOMNode();
     var listContainer = this.refs.listContainer.getDOMNode();
     var scrollTop = parseInt(listContainer.scrollTop, 10);
@@ -24,7 +24,8 @@ var OssList = React.createClass({
       };
     });
 
-    return this.props.products.map(function(oss, i) {
+    return this.props.dotPosition.map(function(position, i) {
+      var oss = position.product;
       var style = {
         position: 'absolute',
         color: ranks[oss.id].color,
