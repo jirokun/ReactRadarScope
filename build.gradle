@@ -1,0 +1,37 @@
+plugins {
+  id 'java'
+  id "groovy"
+  id "com.moowork.gulp" version "0.9"
+}
+
+defaultTasks "clean", "gulp_build", "check"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+  defaultEncoding = 'UTF-8'
+}
+
+[compileJava, compileTestJava].each {
+  it.options.encoding = project.defaultEncoding
+}
+
+gulp_build.dependsOn 'installGulp'
+gulp_build.dependsOn 'npmInstall'
+check.dependsOn gulp_build
+
+repositories {
+  mavenCentral()
+  jcenter()
+}
+
+dependencies {
+  compile 'org.projectlombok:lombok:1.16.2'
+
+  testCompile "junit:junit:4.11"
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.2.1'
+}
