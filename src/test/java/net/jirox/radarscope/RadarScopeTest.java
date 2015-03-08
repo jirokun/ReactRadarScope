@@ -37,7 +37,7 @@ public class RadarScopeTest {
 		String path = "/radarScope/201502";
 
 		String html = RadarScope.getInstance().render(path, yearMonth,
-				productList, categoryList, rankingList);
+				productList, categoryList, rankingList, false);
 		return html;
 	}
 
@@ -82,7 +82,7 @@ public class RadarScopeTest {
 				public Boolean call() throws Exception {
 					try {
 						RadarScope.getInstance().render(path, yearMonth,
-								productList, categoryList, rankingList);
+								productList, categoryList, rankingList, false);
 						return true;
 					} catch (Exception e) {
 						return false;

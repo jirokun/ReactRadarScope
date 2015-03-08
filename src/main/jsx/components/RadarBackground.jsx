@@ -12,7 +12,7 @@ var RadarBackground = React.createClass({
     document.body.removeEventListener('click', this._onCategoryClick);
   },
   _onCategoryClick: function(e) {
-    if (e.target.tagName.toUpperCase() !== 'TEXT') return;
+    if (e.target.tagName.toUpperCase() !== 'TEXT' || this.props.isChildCategory) return;
     var categoryId = e.target.getAttribute('data-categoryid');
     this.transitionTo(Constants.ROOT_PATH + 'radarScope/category/' + categoryId + '/' + this.props.yearMonth);
   },

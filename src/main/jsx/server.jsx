@@ -6,7 +6,7 @@ var props = {
   categories: categories,
   products: products,
   yearMonth: yearMonth,
-  dotPosition: RadarStore.calcDotPosition(yearMonth, ranking, categories)
+  dotPosition: RadarStore.calcDotPosition(url, yearMonth, ranking, categories, isChildCategory)
 };
 var html;
 Router.run(routes, url, function (Handler, args) {

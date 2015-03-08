@@ -66,13 +66,15 @@ public class RadarScope {
 	 */
 	public synchronized String render(String path, String yearMonth,
 			List<Product> productList, List<Category> categoryList,
-			List<Product> rankingList) throws ScriptException, IOException {
+			List<Product> rankingList, boolean isChildCategory)
+			throws ScriptException, IOException {
 		// 使用する変数を定義
 		Bindings bindings = engine.getBindings(ScriptContext.ENGINE_SCOPE);
 		bindings.put("yearMonth", yearMonth);
 		bindings.put("productList", productList);
 		bindings.put("categoryList", categoryList);
 		bindings.put("rankingList", rankingList);
+		bindings.put("isChildCategory", isChildCategory);
 		bindings.put("url", path);
 		String server = getJavaScriptSource("./dist/scripts/server.js");
 		return (String) engine.eval(server);

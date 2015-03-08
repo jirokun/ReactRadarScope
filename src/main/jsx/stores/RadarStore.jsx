@@ -35,17 +35,22 @@ function findCategoryIndex(categories, displayName) {
   }
   return -1;
 }
-function calcDotPosition(yearMonth, ranking, categories) {
-  if (_positionCache[yearMonth]) return _positionCache[yearMonth];
-  var categoryAngle = 2 * Math.PI / 6;
+// Dotの表示場所を計算する
+function calcDotPosition(url, yearMonth, ranking, categories, isChildCategory) {
+  if (_positionCache[url]) return _positionCache[url];
+  var categoryAngle = 2 * Math.PI / categories.length;
   var fullScore = 5;
   var coords = [];
   var minimumDistanceSquare = Math.pow(2 * 8, 2) * (Math.random() + 1.5);
-  var dx, dy;
+  var dx, dy, categoryIndex;
   var colorTable = makeColorTable(ranking, categories);
   var positions = ranking.map(function(product, index) {
     var distance = Constants.RADER_RADIUS / 4 * (fullScore - product.score);
-    var categoryIndex = findCategoryIndex(categories, product.category.displayName);
+    if (isChildCategory) {
+      categoryIndex = findCategoryIndex(categories, product.childCategory.displayName);
+    } else {
+      categoryIndex = findCategoryIndex(categories, product.category.displayName);
+    }
     var maxDistance = 0;
     for (var i = 0; i < 100; i++) {
       var theta = Math.random() * categoryAngle * 0.8 + categoryAngle * categoryIndex + categoryAngle * 0.1;
@@ -77,7 +82,7 @@ function calcDotPosition(yearMonth, ranking, categories) {
       y: dy
     };
   });
-  _positionCache[yearMonth] = positions; // 一度計算したポジションはキャッシュする
+  _positionCache[url] = positions; // 一度計算したポジションはキャッシュする
   return positions;
 }
 
