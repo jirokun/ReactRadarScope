@@ -10,5 +10,5 @@ public class Product {
 	private Double score;
 	private String name;
 	private Category category;
-	private Genre genre;
+	private Category childCategory;
 }

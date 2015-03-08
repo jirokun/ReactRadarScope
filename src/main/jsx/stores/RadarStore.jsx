@@ -7,6 +7,7 @@ var Colr = require('colr');
 
 var _selectedOss, _positionCache = {}, _colorCache = {};
 
+// Dotの中心からの距離を計算する
 function calcDistance(x, y, minimumDistanceSquare, coords) {
   var ret = -1;
   var min = Number.MAX_VALUE;
@@ -27,6 +28,13 @@ function calcDistance(x, y, minimumDistanceSquare, coords) {
   return ret;
 }
 
+// displayNameがcategoriesの中の何番目のデータなのか取得する
+function findCategoryIndex(categories, displayName) {
+  for (var i = 0, len = categories.length; i < len; i++) {
+    if (categories[i].displayName === displayName) return i;
+  }
+  return -1;
+}
 function calcDotPosition(yearMonth, ranking, categories) {
   if (_positionCache[yearMonth]) return _positionCache[yearMonth];
   var categoryAngle = 2 * Math.PI / 6;
@@ -37,10 +45,10 @@ function calcDotPosition(yearMonth, ranking, categories) {
   var colorTable = makeColorTable(ranking, categories);
   var positions = ranking.map(function(product, index) {
     var distance = Constants.RADER_RADIUS / 4 * (fullScore - product.score);
-    var genre_index = categories.indexOf(product.category.displayName);
+    var categoryIndex = findCategoryIndex(categories, product.category.displayName);
     var maxDistance = 0;
     for (var i = 0; i < 100; i++) {
-      var theta = Math.random() * categoryAngle * 0.8 + categoryAngle * genre_index + categoryAngle * 0.1;
+      var theta = Math.random() * categoryAngle * 0.8 + categoryAngle * categoryIndex + categoryAngle * 0.1;
       // 0.8を掛けているのは角度の深い方の境界線に被らないようにするため
       // 0.1を掛けて足しているのも角度の浅い方の境界線に被らないようにするため
 
@@ -64,7 +72,7 @@ function calcDotPosition(yearMonth, ranking, categories) {
     return {
       num: index + 1,
       product: product,
-      color: colorTable[product.category.displayName][product.genre.displayName],
+      color: colorTable[product.category.displayName][product.childCategory.displayName],
       x: dx,
       y: dy
     };
@@ -73,8 +81,7 @@ function calcDotPosition(yearMonth, ranking, categories) {
   return positions;
 }
 
-
-function countGenre(ranking) {
+function countChildCategories(ranking) {
   var counter = 0;
   var categoryInfo = getCategoryInfo(ranking);
   for (var cname in categoryInfo) {
@@ -89,7 +96,7 @@ function getCategoryInfo(ranking) {
   ranking.forEach(function(p) {
     var cname = p.category.displayName;
     if (!info[cname]) info[cname] = {};
-    var gname = p.genre.displayName;
+    var gname = p.childCategory.displayName;
     if (!info[cname][gname]) info[cname][gname] = true;
   });
   return info;
@@ -98,7 +105,7 @@ function getCategoryInfo(ranking) {
 function makeColorTable(ranking, categories) {
   var cacheKey= categories.join('')
   if (_colorCache[cacheKey]) return _colorCache[cacheKey];
-  var hsvDelta = Math.round(360 / countGenre(ranking));
+  var hsvDelta = Math.round(360 / countChildCategories(ranking));
   var colorTable = {};
   var categoryInfo = getCategoryInfo(ranking);
   var counter = 0;
@@ -123,10 +130,9 @@ var RadarStore = EventEmitter({
     this.on(Constants.RADAR_STORE_CHANGE, callback);
   },
   removeStoreChangeListener: function(callback) {
-    this.removeListener(Constants.RADAR_STORE_CHANGE, callback);
+    this.off(Constants.RADAR_STORE_CHANGE, callback);
   }
 });
-//RadarStore.setMaxListeners(160);
 
 RadarDispatcher.register(function(payload) {
   switch(payload.actionType) {

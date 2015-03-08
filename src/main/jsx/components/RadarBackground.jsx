@@ -1,7 +1,21 @@
 var React = require('react');
+var Router = require('react-router');
 var Constants = require('../Constants');
 
 var RadarBackground = React.createClass({
+  mixins: [ Router.Navigation ],
+  componentDidMount: function() {
+    // なぜかonClick属性でイベントリスなを登録できなかったため、ここでラベルクリックをハンドルする
+    document.body.addEventListener('click', this._onCategoryClick, false);
+  },
+  componentWillUnmount: function() {
+    document.body.removeEventListener('click', this._onCategoryClick);
+  },
+  _onCategoryClick: function(e) {
+    if (e.target.tagName.toUpperCase() !== 'TEXT') return;
+    var categoryId = e.target.getAttribute('data-categoryid');
+    this.transitionTo(Constants.ROOT_PATH + 'radarScope/category/' + categoryId + '/' + this.props.yearMonth);
+  },
   _categoryName: function() {
     var _this = this;
     return this.props.categories.map(function(category, i) {
@@ -19,7 +33,7 @@ var RadarBackground = React.createClass({
       var labelRot = radian > 90 && radian < 270 ? 180 : 0;
       return (
         <g key={'category-label-group-' + i} transform={transform}>
-          <text key={'category-label-' + i}transform={'rotate(' + labelRot + ',0,-300)'} y="-300" stroke="none" fill="#666666" style={textStyle}>{category}</text>
+          <text key={'category-label-' + i} data-categoryid={category.id} transform={'rotate(' + labelRot + ',0,-300)'} y="-300" stroke="none" fill="#666666" style={textStyle}>{category.displayName}</text>
         </g>
       );
     });

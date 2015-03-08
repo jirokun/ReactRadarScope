@@ -16,16 +16,15 @@ import java.util.concurrent.Future;
 import javax.script.ScriptException;
 
 import net.jirox.radarscope.models.Category;
-import net.jirox.radarscope.models.Genre;
 import net.jirox.radarscope.models.Product;
 
 import org.junit.Test;
 
 public class RadarScopeTest {
-	private Genre genreScsk = new Genre(1, "SCSK");
-	private Category categoryWeb = new Category(1, "Web");
+	private Category childCategoryScsk = new Category(1, "SCSK", null);
+	private Category categoryWeb = new Category(1, "Web", null);
 	private Product product = new Product(1, 4.2, "Moodle", categoryWeb,
-			genreScsk);
+			childCategoryScsk);
 
 	private String render() throws ScriptException, IOException {
 		List<Product> productList = new ArrayList<>();

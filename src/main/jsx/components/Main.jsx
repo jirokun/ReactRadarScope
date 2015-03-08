@@ -43,7 +43,7 @@ var Main = React.createClass({
         <OssList products={this.props.products} dotPosition={this.props.dotPosition} yearMonth={this.props.yearMonth} selectedOssId={this.state.selectedOssId}/>
         <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
         <div style={radarContainerStyle}>
-          <Radar categories={this.props.categories} dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId}/>
+          <Radar yearMonth={this.props.yearMonth} categories={this.props.categories} dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId}/>
           <FloatingLabel dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId}/>
         </div>
       </div>

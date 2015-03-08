@@ -9,11 +9,14 @@ var RadarStore = require('./stores/RadarStore');
 Router.run(routes, Router.HistoryLocation, function (Handler, args) {
   var yearMonth = args.params.yearMonth;
   if (!yearMonth) yearMonth = new Date().toFormat('YYYYMM');
+  if (!args.params.categoryId) categoryId = 'all';
   async.map([
-      Constants.ROOT_PATH + yearMonth +  '.json',
-      Constants.ROOT_PATH + 'categories.json',
-      Constants.ROOT_PATH + 'products.json'], function(url, cb) {
-    request.get(url).end(function(res) { cb(null, res); });
+    Constants.ROOT_PATH + yearMonth +  '.json',
+    Constants.ROOT_PATH + 'categories/' + categoryId + '.json',
+    Constants.ROOT_PATH + 'products.json'], function(url, cb) {
+    request.get(url).end(function(res) {
+      cb(null, res);
+    });
   }, function(err, responses) {
     for (var i = 0, len = responses.length; i < len; i++) {
       if (responses[i].error) {

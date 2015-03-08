@@ -20,6 +20,7 @@ import net.jirox.radarscope.models.Product;
  * レーダースコープのHTMLをサーバサイドでレンダリングする。
  * 
  * クライアントサイドのコードと同一にするため、
+ * 
  * @author jirokun@gmail.com
  */
 public class RadarScope {

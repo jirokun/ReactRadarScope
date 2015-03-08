@@ -1,1 +1,2357 @@
-[{"description":"eラーニングプラットフォーム。教育関係者が質の高いオンライン学習コースを作成することを支援するOSS\n","version":"2.7","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":5,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://moodle.org/","newInChart":false,"ranking2":1,"score":4.2,"ranking0":1,"ranking1":1,"name":"Moodle","nickname":"Moodle","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":35,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"オープンソースのORDBMS（オブジェクト関係データベースシステム)実装。IllustraやInfomixを起源に持つ","version":"9.4","rationale":{"developerViabilityScore":5,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.postgresql.org","newInChart":false,"ranking2":1,"score":4.2,"ranking0":1,"ranking1":1,"name":"PostgreSQL","nickname":"PostgreSQL","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":3,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"PHPをベースとしたブログソフトウェア。CMSとしても利用可能","version":"3.5","rationale":{"developerViabilityScore":4,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":5,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://wordpress.org/","newInChart":false,"ranking2":3,"score":4.2,"ranking0":1,"ranking1":1,"name":"Wordpress","nickname":"Wordpress","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":16,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Windowsネットワークを実装したもの。Windowsのファイルサーバ、プリントサービス、ドメインコントローラ機能などを提供する","version":"4.1","rationale":{"developerViabilityScore":4,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":4,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":5},"url":"http://www.samba.org/ ","newInChart":false,"ranking2":3,"score":4.1,"ranking0":4,"ranking1":4,"name":"Samba","nickname":"Samba","genre":{"id":32,"name":"Network service","displayName":"ネットワークサービス","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":11,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"JavaベースのWebアプリケーションサーバ。Java ServletやJSP（JavaServer Pagesの）参照実装でもある","version":"8.0","rationale":{"developerViabilityScore":4,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://tomcat.apache.org/ ","newInChart":false,"ranking2":5,"score":4.0,"ranking0":5,"ranking1":5,"name":"Apache Tomcat","nickname":"Tomcat","genre":{"id":19,"name":"AP server","displayName":"アプリケーションサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":2,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"世界中で一番利用されているWebサーバ","version":"2.4","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://httpd.apache.org/ ","newInChart":false,"ranking2":7,"score":3.9,"ranking0":6,"ranking1":7,"name":"Apache HTTP server","nickname":"Apache ","genre":{"id":20,"name":"Web server","displayName":"Webサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":1,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Debian Projectにより開発・提供されているLinuxディストリビューションの一つ","version":"7.7","rationale":{"developerViabilityScore":4,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":5,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.debian.org/","newInChart":false,"ranking2":7,"score":3.9,"ranking0":6,"ranking1":7,"name":"Debian GNU/Linux","nickname":"Debian","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":22,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"オープンソースのBSD子孫のUNIX系OS（オペレーティングシステム）","version":"10.1","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":4,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.freebsd.org/","newInChart":false,"ranking2":5,"score":3.9,"ranking0":6,"ranking1":5,"name":"FreeBSD","nickname":"FreeBSD","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":4,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"オープンソースで開発されているオフィススィート。Oracleから寄贈されたOpenOffice.orgを元にApache Software Foundationで開発されている","version":"4.1","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://openoffice.apache.org/","newInChart":false,"ranking2":9,"score":3.8,"ranking0":9,"ranking1":9,"name":"Apache OpenOffice","nickname":"Apache OpenOffice","genre":{"id":11,"name":"Office Suite","displayName":"オフィススイート","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":5,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"オープンソースのRDBMS（リレーショナルデータベースシステム)実装。現在はOracleが所有している","version":"5.6","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.mysql.com/","newInChart":false,"ranking2":9,"score":3.7,"ranking0":10,"ranking1":9,"name":"MySQL","nickname":"MySQL","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":6,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"まつもとゆきひろ（通称 Matz）により開発されたオブジェクト指向スクリプト言語","version":"2.2","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":5,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":5},"url":"http://www.ruby-lang.org/ja/","newInChart":false,"ranking2":14,"score":3.7,"ranking0":10,"ranking1":12,"name":"Ruby","nickname":"Ruby","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":190,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"SUSE Linuxを起源に持つ、コミュニティベースのLinuxディストリビューション","version":"12.2","rationale":{"developerViabilityScore":2,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":4,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.opensuse.org/en/","newInChart":false,"ranking2":11,"score":3.7,"ranking0":10,"ranking1":12,"name":"openSUSE","nickname":"openSUSE","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":24,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Red Hat Enterprise Linuxとの完全互換を期するLinuxディストリビューション","version":"7.0","rationale":{"developerViabilityScore":2,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":4,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.centos.org/ ","newInChart":false,"ranking2":11,"score":3.6,"ranking0":13,"ranking1":15,"name":"CentOS","nickname":"CentOS","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":41,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"PHPベースのコンテンツマネージメントシステム(CMS)。Mamboから派生","version":"3.0","rationale":{"developerViabilityScore":2,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.joomla.org/","newInChart":false,"ranking2":11,"score":3.6,"ranking0":13,"ranking1":12,"name":"Joomla!","nickname":"Joomla","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":42,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"運用監視ツール。\nプラグインを利用して、様々な対象を監視することができる。","version":"3.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.nagios.org/","newInChart":false,"ranking2":14,"score":3.6,"ranking0":13,"ranking1":15,"name":"Nagios","nickname":"Nagios","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":108,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"オランダ人のグイド・ヴァンロッサムが作ったオープンソースのプログラミング言語。オブジェクト指向スクリプト言語の一種であり、Perlとともに欧米で広く普及している。","version":"3.4","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":5,"userViabilityScore":5,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":3},"url":"http://www.python.org/","newInChart":false,"ranking2":14,"score":3.6,"ranking0":13,"ranking1":15,"name":"Python","nickname":"Python","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":189,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"C++で記述されたGUIツールキット。X Window System、Windows、Mac OS Xなどさまざまなプラットフォーム上で動作するアプリケーションの開発が可能","version":"5.4","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":3},"url":"http://qt-project.org/","newInChart":false,"ranking2":14,"score":3.6,"ranking0":13,"ranking1":15,"name":"Qt","nickname":"Qt","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":9,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"RubyベースのWebアプリケーションフレームワーク。MVC（Model View Controler)アーキテクチャを採用している","version":"4.2","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://rubyonrails.org/ ","newInChart":false,"ranking2":19,"score":3.6,"ranking0":13,"ranking1":9,"name":"Ruby on Rails","nickname":"Ruby on Rails","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":12,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"CRM(顧客関係管理)ソフトウェア。","version":"6.5","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":5,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.sugarforge.org/ ","newInChart":false,"ranking2":19,"score":3.6,"ranking0":13,"ranking1":15,"name":"SugarCRM","nickname":"SugarCRM","genre":{"id":7,"name":"CRM","displayName":"CRM","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":13,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Debian GNU/LinuxをベースとしたLinuxディストリビューションの一つ","version":"14.10","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.ubuntu.com ","newInChart":false,"ranking2":14,"score":3.6,"ranking0":13,"ranking1":15,"name":"Ubuntu","nickname":"Ubuntu","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":15,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Javaベースの帳票ツール","version":"5.0","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://jasperforge.org/","newInChart":false,"ranking2":19,"score":3.5,"ranking0":21,"ranking1":21,"name":"JasperReports","nickname":"JasperReports","genre":{"id":8,"name":"BI","displayName":"ビジネスインテグレーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":39,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"vtiger社が中心となり開発が進められているコミュニティ駆動型\nオープンソースCRMソフトウェア。","version":"6.1","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":5,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"https://www.vtiger.com/crm/","newInChart":false,"ranking2":24,"score":3.5,"ranking0":21,"ranking1":21,"name":"vtiger CRM","nickname":"vtiger CRM","genre":{"id":7,"name":"CRM","displayName":"CRM","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":214,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"動的にHTMLデータを生成することによって、動的なウェブページを実現することを主な目的としたプログラミング言語","version":"5.6","rationale":{"developerViabilityScore":4,"supportLevelScore":3,"publicationScore":5,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://www.php.net/","newInChart":false,"ranking2":24,"score":3.4,"ranking0":23,"ranking1":24,"name":"PHP","nickname":"PHP","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":188,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"Webベースのプロジェクト管理ソフトウェア。バグ管理システム、ガントチャートなどの機能を提供し、複数のプロジェクトに対応していることが特徴。Ruby on Railsで開発されている","version":"2.6","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":2,"enhancementFrequencyScore":5,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.redmine.org/","newInChart":false,"ranking2":19,"score":3.4,"ranking0":23,"ranking1":24,"name":"Redmine","nickname":"Redmine","genre":{"id":14,"name":"Project Management","displayName":"プロジェクト管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":51,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"キー・バリュー型分散データベース管理システム","version":"2.1","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://cassandra.apache.org/","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"Apache Cassandra","nickname":"Cassandra","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":18,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"コンテンツ管理システム(CMS)であり、PHPで実装されている","version":"7.34","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://drupal.org/","newInChart":false,"ranking2":24,"score":3.3,"ranking0":25,"ranking1":24,"name":"Drupal","nickname":"Drupal","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":30,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"GNU Compiler Collection（グニューコンパイラコレクション）の略称。GNUのコンパイラ群","version":"4.9.2","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":3},"url":"http://gcc.gnu.org/","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"GCC","nickname":"GCC","genre":{"id":37,"name":"C/C++","displayName":"C/C++","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":183,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"Javaベースの大規模分散バッチ処理向けフレームワーク","version":"2.6","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://hadoop.apache.org/","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"Apache Hadoop","nickname":"Hadoop","genre":{"id":2,"name":"Data Access","displayName":"データアクセス","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":14,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"JBoss.orgにより開発されている、JavaベースのWebアプリケーションサーバ","version":"7.1","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://jboss.org/jbossas","newInChart":false,"ranking2":24,"score":3.3,"ranking0":25,"ranking1":28,"name":"JBoss Application Server","nickname":"JBoss AS","genre":{"id":19,"name":"AP server","displayName":"アプリケーションサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":7,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"OpenOffice.orgから派生した、オープンソースのオフィススィート","version":"4.4","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":5},"url":"http://www.libreoffice.org/","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"LibreOffice","nickname":"LibreOffice","genre":{"id":11,"name":"Office Suite","displayName":"オフィススイート","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":58,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Webサーバ、リバースプロキシサーバ。軽量であることから特にリバースプロキシとしてApache HTTPサーバの代替として導入が進みつつある","version":"1.7","rationale":{"developerViabilityScore":2,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://nginx.org/ ","newInChart":false,"ranking2":24,"score":3.3,"ranking0":25,"ranking1":24,"name":"NginX","nickname":"NginX","genre":{"id":20,"name":"Web server","displayName":"Webサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":64,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"オープンソース・チケット・リクエスト・システム（Open-source Ticket Request System）。","version":"4.0","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://otrs.org","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"OTRS","nickname":"OTRS","genre":{"id":7,"name":"CRM","displayName":"CRM","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":68,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"OpenLDAP Projectが開発するLDAP(Lightweight Directory Access Protocol)のオープンソース実装","version":"2.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://www.openldap.org/ ","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"OpenLDAP","nickname":"OpenLDAP","genre":{"id":32,"name":"Network service","displayName":"ネットワークサービス","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":37,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"SSLプロトコル・TLSプロトコルのオープンソース実装。ライブラリとユーティリティを提供している","version":"1.0.1j","rationale":{"developerViabilityScore":3,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":5},"url":"http://www.openssl.org/ ","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":41,"name":"OpenSSL","nickname":"OpenSSL","genre":{"id":17,"name":"Network Security","displayName":"ネットワークセキュリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":71,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Rackspace CloudとNASAによって始められたIaaSクラウドコンピューティングプロジェクト","version":"juno","rationale":{"developerViabilityScore":5,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":5,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://www.openstack.org/ ","newInChart":false,"ranking2":30,"score":3.3,"ranking0":25,"ranking1":28,"name":"OpenStack","nickname":"OpenStack","genre":{"id":28,"name":"Cloud","displayName":"クラウド","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":85,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"オープンソースのメール転送エージェント(MTA)。Sendmail互換でありながら管理の容易性、高速・安全であることを目指して開発","version":"2.11","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.postfix.org/","newInChart":false,"ranking2":19,"score":3.3,"ranking0":25,"ranking1":21,"name":"Postfix","nickname":"Postfix","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":38,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"ソースコードなどを管理するバージョン管理システム。CVSの問題点を解決するためにCollabNet, Inc.が開発を始めた。現在はApache Foundationに移管された。","version":"1.8","rationale":{"developerViabilityScore":3,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://subversion.apache.org/","newInChart":false,"ranking2":54,"score":3.2,"ranking0":37,"ranking1":52,"name":"Apache Subversion","nickname":"Apache Subversion","genre":{"id":15,"name":"Version Control","displayName":"バージョン管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":19,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Red Hatが支援するコミュニティー「Fedora Project」によって開発されているRPM系Linuxディストリビューション","version":"Fedora 21","rationale":{"developerViabilityScore":4,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":4,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://fedoraproject.org/","newInChart":false,"ranking2":39,"score":3.2,"ranking0":37,"ranking1":37,"name":"Fedora","nickname":"Fedora","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":159,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"プロキシサーバ、ウェブキャッシュサーバの機能を提供するソフトウェア","version":"3.4","rationale":{"developerViabilityScore":2,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.squid-cache.org/ ","newInChart":false,"ranking2":39,"score":3.2,"ranking0":37,"ranking1":41,"name":"Squid","nickname":"Squid","genre":{"id":20,"name":"Web server","displayName":"Webサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":29,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"データ統合ソフトウェア。業務システムからETL（Extract/Transform/Load)までのデータ統合に利用できる","version":"5.6","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":5,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.talendforge.org/","newInChart":false,"ranking2":39,"score":3.2,"ranking0":37,"ranking1":37,"name":"Talend Open Studio","nickname":"Talend","genre":{"id":23,"name":"ETL","displayName":"ETL","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":26,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Xenコミュニティにより開発されている、仮想マシンモニタ（Hypervisor）","version":"4.4.1","rationale":{"developerViabilityScore":5,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.xenproject.org/","newInChart":false,"ranking2":44,"score":3.2,"ranking0":37,"ranking1":41,"name":"Xen Hypervisor","nickname":"Xen","genre":{"id":27,"name":"Virtualization","displayName":"仮想化","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":27,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"統合運用監視ツール。\nエージェントを利用した監視は、多くの種類のOSに対応している。\nまた、SNMP、IPMI、SSH、telnetなどを利用した監視も可能である。\nWebブラウザを利用して監視の設定ができ、グラフ化の機能も備えている。","version":"2.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://www.zabbix.com/ ","newInChart":false,"ranking2":39,"score":3.2,"ranking0":37,"ranking1":37,"name":"Zabbix","nickname":"Zabbix","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":43,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"インターネットでもっとも利用されているDNSサーバ","version":"10.1.2","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":3},"url":"https://www.isc.org/software/bind","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"BIND","nickname":"BIND","genre":{"id":32,"name":"Network service","displayName":"ネットワークサービス","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":158,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Concurrent Versions System（コンカレント・バージョンズ・システム、並行バージョンシステム）は、ネットワークでの利用、複数ファイルを対象とした最初のバージョン管理システム。元々は単一のファイルを対象としたRCSをベースとしていたが、現在は依存が無い。","version":"1.11.23","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://cvs.nongnu.org/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"CVS","nickname":"CVS","genre":{"id":15,"name":"Version Control","displayName":"バージョン管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":207,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Timo Sirainenが開発・公開をしている、UNIXライクなOS上で動作する、POP3サーバおよびIMAPサーバ","version":"2.2","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.dovecot.org/index.html ","newInChart":false,"ranking2":39,"score":3.1,"ranking0":43,"ranking1":41,"name":"Dovecot","nickname":"Dovecot","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":55,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"InterBaseから派生したオープンソースのリレーショナルデータベース管理システム","version":"2.5","rationale":{"developerViabilityScore":3,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.firebirdsql.org/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"Firebird","nickname":"Firebird","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":101,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"企業ポータル(EIP)を実現するための基盤となるソフトウェア","version":"6.1 ","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.liferay.com/community/welcome/dashboard","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"LifeRay Portal Community Edition","nickname":"LifeRay","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":25,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Javaベースの全文検索ソフトウェア","version":"4.10","rationale":{"developerViabilityScore":5,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://lucene.apache.org/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"Apache Lucene","nickname":"Lucene","genre":{"id":24,"name":"Search engine","displayName":"検索エンジン","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":33,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"統計解析用言語および開発／実行ツール","version":"3.1","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":3,"userViabilityScore":4,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.r-project.org/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"R","nickname":"R","genre":{"id":34,"name":"Functional language","displayName":"関数型言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":34,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"ジョブ管理ソフトウェア","version":"1.7","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.sos-berlin.com/modules/cjaycontent/index.php?id=62&page=osource_scheduler_introduction_en.htm","newInChart":false,"ranking2":54,"score":3.1,"ranking0":43,"ranking1":52,"name":"SOS JobScheduler","nickname":"SOS JobScheduler","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":205,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"JavaベースのWebアプリケーションフレームワーク。MVC（Model View Controler)アーキテクチャを採用している","version":"2.3","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":5,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://struts.apache.org/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":41,"name":"Apache Struts","nickname":"Struts","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":8,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"プログラムなどのソースコード管理を行う、分散バージョン管理システム。","version":"1.8","rationale":{"developerViabilityScore":5,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://git-scm.com/ ","newInChart":false,"ranking2":30,"score":3.1,"ranking0":43,"ranking1":28,"name":"git ","nickname":"git ","genre":{"id":15,"name":"Version Control","displayName":"バージョン管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":44,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"UNIX で使われてきたメールサーバソフトウェア","version":"8.15.1","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.sendmail.com/sm/open_source/","newInChart":false,"ranking2":44,"score":3.1,"ranking0":43,"ranking1":37,"name":"Sendmail","nickname":"sendmail","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":157,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"スケーラブルなストレージのための汎用分散ファイルシステム。","version":"3.6","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.gluster.org/","newInChart":false,"ranking2":61,"score":3.0,"ranking0":54,"ranking1":52,"name":"GlusterFS","nickname":"GlusterFS","genre":{"id":32,"name":"Network service","displayName":"ネットワークサービス","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":196,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"JavaベースのORM（オブジェクト関係マッピング）フレームワーク","version":"4.3","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://hibernate.org/ ","newInChart":false,"ranking2":54,"score":3.0,"ranking0":54,"ranking1":52,"name":"Hibernate","nickname":"Hibernate","genre":{"id":2,"name":"Data Access","displayName":"データアクセス","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":23,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"Javaのロギングユーティリティ","version":"2.1","rationale":{"developerViabilityScore":3,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://logging.apache.org/log4j/2.x/","newInChart":false,"ranking2":44,"score":3.0,"ranking0":54,"ranking1":52,"name":"Apache Log4J","nickname":"Log4j","genre":{"id":4,"name":"Logging","displayName":"ロギング","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":146,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"SNSをベースとしたコミュニケーション基盤","version":"3.8","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.openpne.jp/","newInChart":false,"ranking2":54,"score":3.0,"ranking0":54,"ranking1":52,"name":"OpenPNE","nickname":"OpenPNE","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":211,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"ラリー・ウォールによって開発されたプログラミング言語。実用性と多様性を重視しており、Cやsed、awk、シェルスクリプトなど他のプログラミング言語の優れた機能を取り入れている","version":"5.21.7","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":5,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":5},"url":"http://www.perl.org/","newInChart":false,"ranking2":24,"score":3.0,"ranking0":54,"ranking1":52,"name":"Perl","nickname":"Perl","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":187,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"Javaベースの日本発のアプリケーションフレームワーク。DI（依存性の注入)やAOP（アスペクト指向）などが特徴","version":"2.4.48","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://s2container.seasar.org/2.4/ja/index.html","newInChart":false,"ranking2":54,"score":3.0,"ranking0":54,"ranking1":52,"name":"Seasar2","nickname":"Seasar2","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":56,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"IaaS（Infrastructure as a Service)ベースとなるクラウドインフラストラクチャ構築ソフトウェア。Citrix SystemsからApache Software Foundationへ移管された。","version":"4.4","rationale":{"developerViabilityScore":4,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://cloudstack.apache.org/index.html","newInChart":false,"ranking2":54,"score":2.9,"ranking0":60,"ranking1":52,"name":"Apache CloudStack","nickname":"Apache CloudStack","genre":{"id":28,"name":"Cloud","displayName":"クラウド","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":48,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"グラフィック変換ソフト。\nコマンドラインを利用して、各種フォーマット間の変換や、拡大・縮小・各種フィルタによる効果の追加などを行うことができる。","version":"6.9","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":5},"url":"http://www.imagemagick.org/","newInChart":false,"ranking2":73,"score":2.9,"ranking0":60,"ranking1":63,"name":"ImageMagick","nickname":"ImageMagick","genre":{"id":18,"name":"Utility","displayName":"ユーティリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":107,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"ビジネスインテリジェンス(BI) ソリューションを提供するソフトウェア","version":"5.2","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.pentaho.com/","newInChart":false,"ranking2":61,"score":2.9,"ranking0":60,"ranking1":63,"name":"Pentaho Business Intelligence Server","nickname":"Pentaho BI ","genre":{"id":8,"name":"BI","displayName":"ビジネスインテグレーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":31,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"オブジェクト指向言語と関数型言語の特徴を統合したマルチパラダイムのプログラミング言語","version":"2.11","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.scala-lang.org/","newInChart":false,"ranking2":61,"score":2.9,"ranking0":60,"ranking1":52,"name":"Scala","nickname":"Scala","genre":{"id":36,"name":"Java/JVM language","displayName":"Java/JVM言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":191,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"ソフトウェアルータ。XenやVMwareなどの仮想環境上のゲストOSとしても動作させることが可能","version":"6.6","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.vyatta.org/","newInChart":false,"ranking2":61,"score":2.9,"ranking0":60,"ranking1":63,"name":"Vyatta","nickname":"Vyatta","genre":{"id":31,"name":"Network controller","displayName":"ネットワークコントローラ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":75,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"PHP5ベースのWebアプリケーションフレームワーク","version":"2.0","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://framework.zend.com/community/overview","newInChart":false,"ranking2":61,"score":2.9,"ranking0":60,"ranking1":63,"name":"Zend Framework","nickname":"Zend Framework","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":17,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"クロスプラットフォームで動作するバックアップ／リカバリソフトウェア","version":"3.3","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.amanda.org/ ","newInChart":false,"ranking2":68,"score":2.8,"ranking0":66,"ranking1":67,"name":"Amanda Community","nickname":"Amanda","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":66,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"グラフツール。SNMPエージェントが取得した値や、プログラム/スクリプトの出力結果をグラフ化することが可能","version":"0.8.8c","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.cacti.net ","newInChart":false,"ranking2":68,"score":2.8,"ranking0":66,"ranking1":67,"name":"Cacti","nickname":"Cacti","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":46,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"サーバの構成管理を容易に反映するためのツール。RubyとErlangで実装されている。","version":"11.6","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.opscode.com/chef/","newInChart":false,"ranking2":61,"score":2.8,"ranking0":66,"ranking1":67,"name":"Chef","nickname":"Chef","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":206,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"PythonベースのWebアプリケーションフレームワーク。","version":"1.7","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":4,"enhancementFrequencyScore":5,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"https://www.djangoproject.com/","newInChart":false,"ranking2":54,"score":2.8,"ranking0":66,"ranking1":52,"name":"Django Framework","nickname":"Django ","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":61,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"XMLとJavaベースのオープンソースのコンテンツマネージメントシステム (CMS) ","version":"9.5","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.opencms.org","newInChart":false,"ranking2":73,"score":2.8,"ranking0":66,"ranking1":73,"name":"OpenCms","nickname":"OpenCMS","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":143,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Javaベースのアプリケーションフレームワーク。IoC/DI（依存性の注入)やAOP（アスペクト指向）などが特徴","version":"4.1","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://www.springsource.org/ ","newInChart":false,"ranking2":61,"score":2.8,"ranking0":66,"ranking1":67,"name":"Spring Framework","nickname":"Spring ","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":32,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"企業・サービスプロバイダ向け次世代型メールプラットフォーム。\n電子メールやアドレス帳、スケジューラー、ドキュメントなどを標準装備するとともに、外部アプリケーションなどとのWeb上での統合や連携を実現するマッシュアップ機能を備えた、操作性の高いWeb統合コラボレーションスイートであり、\nWebメールでありながら、Ajax技術の採用により、ドラッグ&ドロップ、右クリックメニュー、マウスオーバーなど、一般的なメールソフトと同等の操作性を実現。","version":"8.6","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.zimbra.com/","newInChart":false,"ranking2":73,"score":2.8,"ranking0":66,"ranking1":67,"name":"Zimbra Collaboration Server","nickname":"Zimbra","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":201,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"JavaScriptとHTMLの開発を強化するJavaScriptライブラリ","version":"2.1","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":5,"userViabilityScore":4,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://jquery.com/","newInChart":false,"ranking2":98,"score":2.8,"ranking0":66,"ranking1":85,"name":"jQuery","nickname":"jQuery","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":72,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"Digium, Inc.で開発されている、オープンソースのIP-PBXソフトウェア","version":"13.0","rationale":{"developerViabilityScore":3,"supportLevelScore":3,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.asterisk.org/","newInChart":false,"ranking2":68,"score":2.7,"ranking0":74,"ranking1":73,"name":"Asterisk","nickname":"Asterisk","genre":{"id":10,"name":"Communication","displayName":"コミュニケーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":20,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Webベースのバグ管理システム","version":"4.5.6","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":5},"url":"http://www.bugzilla.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"Bugzilla","nickname":"BugZilla","genre":{"id":14,"name":"Project Management","displayName":"プロジェクト管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":163,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"グラフィック編集ソフト。\n新規に画像を描くこともできるが、写真の修整や色調変更、合成なども容易に行うことができる。","version":"2.8","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":5,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://www.gimp.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"GIMP","nickname":"GIMP","genre":{"id":18,"name":"Utility","displayName":"ユーティリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":104,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"非正格な評価を特徴とする純粋関数型プログラミング言語","version":"2014.2.0.0","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.haskell.org/haskellwiki/Haskell","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"Haskell","nickname":"Haskell","genre":{"id":34,"name":"Functional language","displayName":"関数型言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":193,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"リオデジャネイロ・カトリカ大学の情報工学科コンピュータグラフィックステクノロジーグループ TeCGraf によって設計開発されたスクリプト言語","version":"2.0","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.lua.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"Lua","nickname":"Lua","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":185,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"NoSQLの一種である、ドキュメント指向データベース","version":"2.6","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":4,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.mongodb.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"MongoDB","nickname":"MongoDB","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":50,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"PHP、MySQLなどの上で動作するコンテンツマネージメントシステム(CMS)であり、国立情報学研究所NetCommonsプロジェクトが開発している","version":"2.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.netcommons.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"NetCommons","nickname":"NetCommons","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":142,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"セキュリティスキャナ。ポートスキャン、OSおよびバージョン検出、サービスおよびバージョン検出などの機能を提供する","version":"6.40","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://nmap.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"Nmap","nickname":"Nmap","genre":{"id":17,"name":"Network Security","displayName":"ネットワークセキュリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":70,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"オープンソースのHA（High Availability 高可用性）クラスタソフトウェア","version":"1.1","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://www.clusterlabs.org/","newInChart":false,"ranking2":68,"score":2.7,"ranking0":74,"ranking1":73,"name":"Pacemaker","nickname":"Pacemaker","genre":{"id":29,"name":"High Availability","displayName":"高可用性","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":73,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Rubyベースのシステム自動管理ツール","version":"3.7","rationale":{"developerViabilityScore":2,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.puppetlabs.com/ ","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":67,"name":"Puppet","nickname":"Puppet","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":45,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"フェルミ研究所 (Fermi National Accelerator Laboratory) 及び欧州原子核研究機構 (CERN) によるLinuxディストリビューション。Red Hat Enterprise Linux (RHEL) をベースとしており、高い互換性を持つ。","version":"7.0","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.scientificlinux.org/","newInChart":false,"ranking2":73,"score":2.7,"ranking0":74,"ranking1":73,"name":"Scientific Linux","nickname":"Scientific Linux","genre":{"id":26,"name":"OS","displayName":"OS","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":78,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"PHPで記載された コンテンツマネージメントシステム(CMS)","version":"2.5.7","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://xoops.org/","newInChart":false,"ranking2":68,"score":2.7,"ranking0":74,"ranking1":73,"name":"XOOPS","nickname":"XOOPS","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":145,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Webベース会議用ソフトウェアプラットフォーム","version":"3.0","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":3},"url":"http://openmeetings.apache.org/","newInChart":false,"ranking2":73,"score":2.6,"ranking0":86,"ranking1":85,"name":"Apache OpenMeetings","nickname":"Apache OpenMeetings","genre":{"id":10,"name":"Communication","displayName":"コミュニケーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":28,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"アプリケーション組み込み型のデータベースライブラリである。現在はオラクルの製品であり、またオープンソースとして公開されている。","version":"12.1.6.1.19","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.oracle.com/technetwork/products/berkeleydb/overview/index.html","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"Oracle Berkeley DB","nickname":"BerkeleyDB","genre":{"id":2,"name":"Data Access","displayName":"データアクセス","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":150,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"Linuxプラットフォームにおける分散ストレージシステム","version":"8.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.drbd.org/","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"DRBD","nickname":"DRBD","genre":{"id":29,"name":"High Availability","displayName":"高可用性","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":62,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Linux用高可用クラスター用クラスタ管理プログラム。v2.1.4までは、クラスタリソース制御機能(CRM)も含んでいたが、v3以降は基盤レイヤのみ。CRMとしてPacemakerを組み合わせて使用する。","version":"3.0","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://www.linux-ha.org/wiki/Main_Page","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"Heartbeat","nickname":"Heartbeat","genre":{"id":29,"name":"High Availability","displayName":"高可用性","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":197,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Linuxカーネル仮想化基盤","version":"1.2","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":4,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.linux-kvm.org/page/Main_Page","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"Kernel-based Virtual Machine","nickname":"KVM","genre":{"id":27,"name":"Virtualization","displayName":"仮想化","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":198,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"マサチューセッツ工科大学（MIT） で開発された暗号方式を用いた認証システム","version":"1.13","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":5,"bugfixFrequencyScore":1},"url":"http://www.kerberos.org/","newInChart":false,"ranking2":73,"score":2.6,"ranking0":86,"ranking1":85,"name":"Kerberos","nickname":"Kerberos","genre":{"id":22,"name":"Security","displayName":"セキュリティ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":154,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"MRTG (Multi Router Traffic Grapher) は、ルータなどネットワーク機器が送受信したデータの量（トラフィック）をグラフによって可視化するプログラム。","version":"2.17","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://oss.oetiker.ch/mrtg/index.en.html ","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"MRTG","nickname":"MRTG","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":69,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"SSHプロトコルを実装するソフトウェアで、SSHサーバおよびSSHクライアント。OpenBSDプロジェクトにより開発されている","version":"6.7","rationale":{"developerViabilityScore":2,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.openssh.org/","newInChart":false,"ranking2":98,"score":2.6,"ranking0":86,"ranking1":96,"name":"OpenSSH","nickname":"OpenSSH","genre":{"id":17,"name":"Network Security","displayName":"ネットワークセキュリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":65,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Etherealを起源に持つネットワーク・アナライザ・ソフトウェア。","version":"1.8","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.wireshark.org","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"Wireshark","nickname":"Wireshark","genre":{"id":17,"name":"Network Security","displayName":"ネットワークセキュリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":84,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"カーネギーメロン大学(CMU)で開発されたIMAP準拠のメールおよびニュースサーバ。IMAP、IMAPS、POP3、POP3S、NNTP、TLSなどに対応している。","version":"2.4","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://cyrusimap.web.cmu.edu/","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"Cyrus IMAP Server","nickname":"cyrus-imapd","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":202,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"イベント化された入出力を扱うUNIX系プラットフォーム上のサーバーサイドJavaScript環境。","version":"0.10","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":5,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://nodejs.org/","newInChart":false,"ranking2":87,"score":2.6,"ranking0":86,"ranking1":85,"name":"node.js","nickname":"node.js","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":81,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"ERP、CRM、SCM等のアプリケーションパッケージ。Compiereから分岐","version":"3.7","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.adempiere.com/ADempiere_ERP","newInChart":false,"ranking2":98,"score":2.5,"ranking0":97,"ranking1":96,"name":"ADempiere ERP Business Suite","nickname":"ADempiere","genre":{"id":6,"name":"ERP","displayName":"ERP","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":47,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"企業規模の文書管理・コンテンツ管理システム。商用製品 Documentumからのスピンアウト","version":"5.0","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.alfresco.com/community/","newInChart":false,"ranking2":107,"score":2.5,"ranking0":97,"ranking1":108,"name":"Alfresco","nickname":"Alfresco","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":21,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"クロスプラットフォームのアンチウィルスソフトウェア","version":"0.98","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.clamav.net/lang/en/","newInChart":false,"ranking2":87,"score":2.5,"ranking0":97,"ranking1":96,"name":"Clam Antivirus","nickname":"Clam AV","genre":{"id":16,"name":"Anti Virus","displayName":"アンチウィルス","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":76,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"クロスブラウザに対応したJavaScript/Ajaxアプリケーションを迅速に開発するためのJavaScriptライブラリ","version":"1.10","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://dojotoolkit.org/","newInChart":false,"ranking2":107,"score":2.5,"ranking0":97,"ranking1":96,"name":"Dojo Toolkit","nickname":"Dojo Toolkit","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":74,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"汎用的な用途に使うことができる並行処理指向のプログラミング言語および実行環境。","version":"17","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":3},"url":"http://www.erlang.org/","newInChart":false,"ranking2":98,"score":2.5,"ranking0":97,"ranking1":96,"name":"Erlang","nickname":"Erlang","genre":{"id":34,"name":"Functional language","displayName":"関数型言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":182,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"運用監視ツール。\n他の運用監視ツールと比較してジョブ管理まで統合している。","version":"4.1","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.hinemos.info/","newInChart":false,"ranking2":98,"score":2.5,"ranking0":97,"ranking1":96,"name":"Hinemos","nickname":"Hinemos","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":103,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"MySQL派生のオープンソースな関係データベース管理システム（RDBMS）。MySQLの作者であるMichael \"Monty\" Wideniusがプロジェクトを立ち上げた","version":"5.5","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"https://mariadb.org/","newInChart":false,"ranking2":107,"score":2.5,"ranking0":97,"ranking1":120,"name":"MariaDB","nickname":"MariaDB","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":102,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"モバイルアプリケーション開発フレームワーク。JavaScript、HTML、CSSを使って、iPhone、Android、Windows Mobileなどさまざまな端末用のモバイルアプリを開発することができる","version":"3.4","rationale":{"developerViabilityScore":4,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://phonegap.com/","newInChart":false,"ranking2":87,"score":2.5,"ranking0":97,"ranking1":96,"name":"PhoneGap","nickname":"PhoneGap","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":77,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"Zopeアプリケーションサーバ上に構築されたフリーかつオープンなコンテンツマネジメントシステム（CMS）","version":"4.3.3","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://plone.org/","newInChart":false,"ranking2":87,"score":2.5,"ranking0":97,"ranking1":96,"name":"Plone","nickname":"Plone","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":144,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"アプリケーションに組み込んで利用される軽量のデータベース管理システム","version":"3.8.8","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":5},"url":"http://www.sqlite.org/","newInChart":false,"ranking2":98,"score":2.5,"ranking0":97,"ranking1":96,"name":"SQLite","nickname":"SQLite","genre":{"id":2,"name":"Data Access","displayName":"データアクセス","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":152,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"ドキュメント指向データベース管理システム","version":"1.6","rationale":{"developerViabilityScore":4,"supportLevelScore":1,"publicationScore":3,"userViabilityScore":2,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://couchdb.apache.org/","newInChart":false,"ranking2":120,"score":2.5,"ranking0":97,"ranking1":96,"name":"Apache CouchDB","nickname":"couchdb","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":54,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Unix系オペレーティングシステム (OS) で動作するメール転送エージェント (MTA)","version":"1.0.6","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://cr.yp.to/qmail.html","newInChart":false,"ranking2":98,"score":2.5,"ranking0":97,"ranking1":96,"name":"qmail","nickname":"qmail","genre":{"id":33,"name":"Mail server","displayName":"メールサーバ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":156,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"ToDO整理、スケジュール管理、ニュース配信、ブログなどの機能を提供するグループウェア。","version":"7.0","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.aipo.com/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"Aipo","nickname":"Aipo","genre":{"id":10,"name":"Communication","displayName":"コミュニケーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":215,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"PHPを用いて動的Webサイトを構築するために利用するオープンソースのWebアプリケーションフレームワーク","version":"2.6","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":3,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://cakephp.org/","newInChart":false,"ranking2":120,"score":2.4,"ranking0":109,"ranking1":108,"name":"CakePHP","nickname":"CakePHP","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":148,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"Javaで記述されている統合開発環境","version":"4.4","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.eclipse.org/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"Eclipse","nickname":"Eclipse","genre":{"id":12,"name":"Development","displayName":"開発","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":164,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Eucalyptus Systemsが開発する、プライベートクラウド向けクラウド基盤ソフトウェア。IaaS（インフラ・アズ・ア・サービス）に分類される","version":"4.0","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.eucalyptus.com/participate","newInChart":false,"ranking2":98,"score":2.4,"ranking0":109,"ranking1":108,"name":"Eucalyptus","nickname":"Eucalyptus","genre":{"id":28,"name":"Cloud","displayName":"クラウド","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":87,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"プログラミング言語 Groovy をベースにしたWebアプリケーションフレームワーク。","version":"2.2","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://grails.org/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"Grails","nickname":"Grails","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":112,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"JasperReportsやJasperReports Serverのための、eclipseベースの帳票デザイナ。","version":"6.0","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":3,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":3},"url":"http://community.jaspersoft.com/project/jaspersoft-studio","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"Jaspersoft Studio","nickname":"Jaspersoft Studio","genre":{"id":8,"name":"BI","displayName":"ビジネスインテグレーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":210,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Javaベースの開発支援ツール。プロジェクトの構成管理機能を提供する。","version":"3.2","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":4,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://maven.apache.org/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"Apache Maven","nickname":"Maven","genre":{"id":12,"name":"Development","displayName":"開発","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":49,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Microsoft .NET Framework互換の環境を実現するためのオープンソースソフトウェア。共通言語基盤 (CLI) の実装やC#のコンパイラなどが含まれる","version":"3.12","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.mono-project.com/Main_Page","newInChart":false,"ranking2":120,"score":2.4,"ranking0":109,"ranking1":108,"name":"Mono","nickname":"Mono","genre":{"id":5,"name":".NET","displayName":".NET","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":59,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"認証基盤となるソフトウェアでSSO（シングルサインオン）、アクセス制御などの機能を提供する。Sunが開発していたOpenSSOを起源に持つ","version":"12.0","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://openam.forgerock.org/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"OpenAM","nickname":"OpenAM","genre":{"id":25,"name":"SSO","displayName":"シングルサインオン","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":36,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"暗号化通信のためのVPN(Virtual Private Network）ソフトウェア","version":"2.3","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":4,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://openvpn.net/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"OpenVPN","nickname":"OpenVPN","genre":{"id":17,"name":"Network Security","displayName":"ネットワークセキュリティ","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":63,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"運用監視ツール。","version":"5.1","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://pandorafms.com/","newInChart":false,"ranking2":98,"score":2.4,"ranking0":109,"ranking1":96,"name":"Pandora FMS","nickname":"Pandora FMS","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":110,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"eZ Systems社が開発提供するエンタープライズ・オープンソースPHPコンテンツマネジメントシステム(CMS)","version":"Community Project 2014.03","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://ez.no/","newInChart":false,"ranking2":107,"score":2.4,"ranking0":109,"ranking1":108,"name":"eZ Publish","nickname":"eZ Publish","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":141,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"ERP、CRM、SCM等のアプリケーションパッケージ","version":"3.8","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":1,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.compiere.com/","newInChart":false,"ranking2":120,"score":2.3,"ranking0":121,"ranking1":120,"name":"Compiere Community Edition","nickname":"Compiere","genre":{"id":6,"name":"ERP","displayName":"ERP","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":67,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Droolsコミュニティで開発されているルールエンジン。製品版としてはJBoss Enterprise BRMSが提供されている。","version":"6.1.0.Final","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":5,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"https://www.jboss.org/drools/","newInChart":false,"ranking2":120,"score":2.3,"ranking0":121,"ranking1":127,"name":"Drools Expert","nickname":"Drools","genre":{"id":8,"name":"BI","displayName":"ビジネスインテグレーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":209,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"Kenzaburo Ito氏が開発し、Mantisチームにより開発、メンテナンスされているWebベースのバグ管理システム","version":"1.2.18","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://www.mantisbt.org/","newInChart":false,"ranking2":127,"score":2.3,"ranking0":121,"ranking1":120,"name":"Mantis","nickname":"Mantis","genre":{"id":15,"name":"Version Control","displayName":"バージョン管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":208,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Web勤怠管理・人事給与システム","version":"4.4","rationale":{"developerViabilityScore":1,"supportLevelScore":5,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.mosp.jp/","newInChart":false,"ranking2":107,"score":2.3,"ranking0":121,"ranking1":120,"name":"MosP","nickname":"MosP","genre":{"id":6,"name":"ERP","displayName":"ERP","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":213,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"JavaベースのORM（オブジェクト関係マッピング）フレームワーク。一時期、Apache Software Foundationで提供されていたiBATISから、プロジェクトが移行された。","version":"3.2","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":3},"url":"http://blog.mybatis.org/","newInChart":false,"ranking2":120,"score":2.3,"ranking0":121,"ranking1":120,"name":"MyBATIS","nickname":"MyBATIS","genre":{"id":2,"name":"Data Access","displayName":"データアクセス","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":52,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"x86仮想化ソフトウェア・パッケージ","version":"4.2","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.virtualbox.org/wiki/VirtualBox ","newInChart":false,"ranking2":120,"score":2.3,"ranking0":121,"ranking1":120,"name":"VirtualBox","nickname":"VirtualBox","genre":{"id":27,"name":"Virtualization","displayName":"仮想化","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":53,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"PostgreSQL対応の多機能クラスタソフトウェア","version":"3.4","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.pgpool.net/","newInChart":false,"ranking2":107,"score":2.3,"ranking0":121,"ranking1":120,"name":"pgpool-II","nickname":"pgpool-II","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":155,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"JavaベースのWebサービスのためのフレームワーク","version":"1.6","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":3,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://ws.apache.org/axis2 ","newInChart":false,"ranking2":127,"score":2.2,"ranking0":128,"ranking1":127,"name":"Apache Axis2/Java","nickname":"Axis2","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":10,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"オープンソースの列指向、分散データベース","version":"0.98.9","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://hbase.apache.org/","newInChart":false,"ranking2":127,"score":2.2,"ranking0":128,"ranking1":127,"name":"Apache Hbase","nickname":"Hbase","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":153,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"データマイニング／統計解析ツール","version":"3.7","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":3,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://www.cs.waikato.ac.nz/ml/weka/","newInChart":false,"ranking2":127,"score":2.2,"ranking0":128,"ranking1":127,"name":"Weka","nickname":"Weka","genre":{"id":8,"name":"BI","displayName":"ビジネスインテグレーション","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":79,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"分散型メモリキャッシュシステム","version":"1.4","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://memcached.org/","newInChart":false,"ranking2":127,"score":2.2,"ranking0":128,"ranking1":127,"name":"memcached","nickname":"memcached","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":88,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Javaベースのビルドツール。XML文書でビルドのためのルールを記述することが特徴","version":"1.9.4","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://ant.apache.org/","newInChart":false,"ranking2":133,"score":2.1,"ranking0":132,"ranking1":133,"name":"Apache Ant","nickname":"Ant","genre":{"id":12,"name":"Development","displayName":"開発","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":60,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"米Twitterが公開したCSSおよびJavaScriptから構成されているWebフレームワーク","version":"3.3","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":3},"url":"http://getbootstrap.com/","newInChart":false,"ranking2":138,"score":2.1,"ranking0":132,"ranking1":143,"name":"Bootstrap","nickname":"Bootstrap","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":147,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"エンタープライズWebポータルおよびWebポータルFramework。\n製品はJBoss Enterprise Portal Platform。","version":"3.8","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.jboss.org/gatein","newInChart":false,"ranking2":133,"score":2.1,"ranking0":132,"ranking1":133,"name":"GateIn Portal","nickname":"GateIn","genre":{"id":9,"name":"CMS","displayName":"コンテンツ管理","description":null,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},"changeInPeriod":false,"id":212,"category":{"id":1,"name":"application","displayName":"アプリケーション","description":""}},{"description":"クロスプラットフォームの分散型バージョン管理システム","version":"3.3","rationale":{"developerViabilityScore":5,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://mercurial.selenic.com/","newInChart":false,"ranking2":138,"score":2.1,"ranking0":132,"ranking1":133,"name":"Mercurial","nickname":"Mercurial","genre":{"id":15,"name":"Version Control","displayName":"バージョン管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":165,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"「RRD（Round Robin Database）」と呼ばれるデータベースに時系列のデータを格納し、それをグラフ化するツール","version":"1.4.9","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"http://oss.oetiker.ch/rrdtool/","newInChart":false,"ranking2":133,"score":2.1,"ranking0":132,"ranking1":133,"name":"RRDtool","nickname":"RRDTool","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":167,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"軽量・高速・安全性を重視して設計されたWebサーバ。静的なコンテンツの配布に適している","version":"1.4","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.lighttpd.net/ ","newInChart":false,"ranking2":133,"score":2.1,"ranking0":132,"ranking1":133,"name":"lighttpd","nickname":"lighttpd","genre":{"id":20,"name":"Web server","displayName":"Webサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":90,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Node.jsをベースとし、JavaScriptとHTML+CSSだけでアプリケーションを記述できるWebアプリケーション開発プラットフォーム","version":"1.0","rationale":{"developerViabilityScore":2,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":5,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://meteor.com/","newInChart":false,"ranking2":127,"score":2.1,"ranking0":132,"ranking1":127,"name":"Meteor","nickname":"meteor","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":92,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"PHPを用いて動的Webサイトを構築するために利用するWebアプリケーションフレームワーク","version":"2.2","rationale":{"developerViabilityScore":2,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://ellislab.com/codeigniter","newInChart":false,"ranking2":138,"score":2.0,"ranking0":139,"ranking1":138,"name":"CodeIgniter","nickname":"CodeIgniter","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":149,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"JavaベースのWebアプリケーションサーバ。軽量でありながらWebSocketのようなプロトコルもサポートしている","version":"8.1","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.eclipse.org/jetty/","newInChart":false,"ranking2":138,"score":2.0,"ranking0":139,"ranking1":138,"name":"Jetty","nickname":"Jetty","genre":{"id":19,"name":"AP server","displayName":"アプリケーションサーバ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":83,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"プログラミング言語Javaのフリーかつオープンソースの実装である","version":"jdk7u80-b04","rationale":{"developerViabilityScore":2,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://openjdk.java.net/","newInChart":false,"ranking2":138,"score":2.0,"ranking0":139,"ranking1":138,"name":"OpenJDK","nickname":"OpenJDK","genre":{"id":36,"name":"Java/JVM language","displayName":"Java/JVM言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":186,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"サーバサイドJavaとScalaのためのMVCフレームワーク","version":"2.3","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":5},"url":"http://www.playframework.com/","newInChart":false,"ranking2":145,"score":2.0,"ranking0":139,"ranking1":143,"name":"Play framework","nickname":"Play","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":151,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"オープンソース実装のOpenFlowコントローラ","version":"3.17","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":5},"url":"http://osrg.github.com/ryu/","newInChart":false,"ranking2":138,"score":2.0,"ranking0":139,"ranking1":138,"name":"Ryu","nickname":"Ryu","genre":{"id":31,"name":"Network controller","displayName":"ネットワークコントローラ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":161,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"世界初のJavaScriptエンジンのコード名","version":"24.2","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":4,"bugfixFrequencyScore":1},"url":"https://developer.mozilla.org/en-US/docs/SpiderMonkey","newInChart":false,"ranking2":133,"score":2.0,"ranking0":139,"ranking1":138,"name":"SpiderMonkey","nickname":"SpiderMonkey","genre":{"id":35,"name":"Scriptiong language","displayName":"スクリプト言語","description":null,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},"changeInPeriod":false,"id":195,"category":{"id":5,"name":"language","displayName":"言語処理系","description":""}},{"description":"米Big Switch Networksが開発したOpenFlowコントローラ","version":"1.0","rationale":{"developerViabilityScore":3,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://floodlight.openflowhub.org/","newInChart":false,"ranking2":145,"score":1.9,"ranking0":145,"ranking1":143,"name":"Floodlight","nickname":"Floodlight","genre":{"id":31,"name":"Network controller","displayName":"ネットワークコントローラ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":160,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Webアプリケーションのためのテスト自動化ツールSeleniumのためのIDE（統合開発環境）。Firefoxのプラグインとして動作する","version":"2.8","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://seleniumhq.org/","newInChart":false,"ranking2":145,"score":1.9,"ranking0":145,"ranking1":147,"name":"Selenium IDE","nickname":"Selenium","genre":{"id":12,"name":"Development","displayName":"開発","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":86,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Yahoo! User Interface Library（略称：YUI）はDOMスクリプティング、DHTMLやAJAXを利用した高機能なWebアプリケーションの開発に用いられる、JavaScriptとCSSで記述されたユーティリティ群","version":"3.18","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":4,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://yuilibrary.com/","newInChart":false,"ranking2":144,"score":1.9,"ranking0":145,"ranking1":143,"name":"YUI library","nickname":"YUI ","genre":{"id":3,"name":"UI toolkit","displayName":"UIツールキット","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":80,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"OpenVAS（Open Vulnerability Assessment System）は、脆弱性スキャン機能や脆弱性管理機能をもつ複数のサービスやツールから構成される脆弱性評価フレームワーク。Nessusから派生。","version":"7.0","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":2,"enhancementFrequencyScore":3,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://www.openvas.org/","newInChart":false,"ranking2":145,"score":1.8,"ranking0":148,"ranking1":147,"name":"OpenVAS","nickname":"OpenVAS","genre":{"id":22,"name":"Security","displayName":"セキュリティ","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":203,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"Webベースのプロジェクト管理ソフトウェア。チケットベースのバグ管理システムの他プラグインも合わせてさまざまな機能を提供する。Pythonをベースに実装されている","version":"1.1","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://trac.edgewall.org/","newInChart":false,"ranking2":145,"score":1.8,"ranking0":148,"ranking1":147,"name":"Trac","nickname":"Trac","genre":{"id":14,"name":"Project Management","displayName":"プロジェクト管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":82,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"負荷分散機能を提供するソフトウェア。OS7階層モデルの第4層（Layer4）までの情報に基づいた負荷分散ソリューションである従来のUltraMonkeyを応用して、第7層（Layer7）までの情報に基づいた負荷分散機能を実現する。","version":"3.1","rationale":{"developerViabilityScore":1,"supportLevelScore":3,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://sourceforge.jp/projects/ultramonkey-l7/","newInChart":false,"ranking2":145,"score":1.8,"ranking0":148,"ranking1":147,"name":"UltraMonkey-L7","nickname":"UltraMonkey","genre":{"id":30,"name":"Load Balancer","displayName":"負荷分散","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":89,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},{"description":"Microsoft Projectの代替となるデスクトップアプリケーション。既存のMS Projectファイルを開くことも可能","version":"1.4","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://sourceforge.net/projects/openproj/","newInChart":false,"ranking2":151,"score":1.7,"ranking0":151,"ranking1":151,"name":"OpenProj","nickname":"OpenProj","genre":{"id":14,"name":"Project Management","displayName":"プロジェクト管理","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":91,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"運用監視ツール。\nNagiosをベースに、GUIでの設定や操作ができたり、取得したリソースデータのグラフ化などの機能が拡張されている。","version":"4.0.0 (Core)","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":3,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":3,"bugfixFrequencyScore":1},"url":"http://www.opsview.com/","newInChart":false,"ranking2":151,"score":1.7,"ranking0":151,"ranking1":151,"name":"OpsView","nickname":"OpsView","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":111,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"運用監視ツール。\nNagiosをベースに、GUIでの設定や操作ができたり、取得したリソースデータのグラフ化などの機能が拡張されている。","version":"6.0.1","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":1},"url":"http://www.gwos.com/","newInChart":false,"ranking2":154,"score":1.6,"ranking0":153,"ranking1":154,"name":"GroundWork Monitor","nickname":"GroundWork","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":105,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"Infinispanは、極めてスケーラブルで高可用性なKey/Value型NoSQLデータストア・分散データグリッドプラットフォーム。JBoss Cache 3.2を起源にするため、最初のリリースバージョンは4.0となっている。","version":"7.1","rationale":{"developerViabilityScore":2,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":5,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":3},"url":"https://www.jboss.org/infinispan","newInChart":false,"ranking2":155,"score":1.6,"ranking0":153,"ranking1":155,"name":"Infinispan","nickname":"Infinispan","genre":{"id":21,"name":"DBMS","displayName":"データベース管理システム","description":null,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},"changeInPeriod":false,"id":199,"category":{"id":3,"name":"middleware","displayName":"ミドルウェア","description":""}},{"description":"運用監視ツール。\nHobbitから名称が変更されたプロジェクト。","version":"4.3.17","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":2,"enhancementFrequencyScore":1,"documentLevelScore":2,"projectStabilityScore":null,"projectSustainabilityScore":2,"bugfixFrequencyScore":3},"url":"http://xymon.sourceforge.net/","newInChart":false,"ranking2":151,"score":1.6,"ranking0":153,"ranking1":151,"name":"Xymon","nickname":"Xymon","genre":{"id":13,"name":"Operation","displayName":"運用","description":null,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},"changeInPeriod":false,"id":109,"category":{"id":2,"name":"tool","displayName":"ツール","description":""}},{"description":"JavaベースのWebアプリケーションフレームワーク。JSF、Web Beans(JSR-299)など新しい技術仕様が採用されている","version":"2.2","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":2,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://www.seamframework.org/ ","newInChart":false,"ranking2":155,"score":1.5,"ranking0":156,"ranking1":155,"name":"JBoss Seam","nickname":"Seam","genre":{"id":1,"name":"Web APP framework","displayName":"Web APフレームワーク","description":null,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},"changeInPeriod":false,"id":57,"category":{"id":0,"name":"framework","displayName":"ライブラリ／フレームワーク","description":""}},{"description":"OpenFlowコントローラを開発するためのRubyおよびC用のプログラミングフレームワーク","version":"0.4.7","rationale":{"developerViabilityScore":1,"supportLevelScore":1,"publicationScore":1,"userViabilityScore":1,"enhancementFrequencyScore":1,"documentLevelScore":3,"projectStabilityScore":null,"projectSustainabilityScore":1,"bugfixFrequencyScore":1},"url":"http://trema.github.com/trema/","newInChart":false,"ranking2":155,"score":1.4,"ranking0":157,"ranking1":157,"name":"Trema","nickname":"Trema","genre":{"id":31,"name":"Network controller","displayName":"ネットワークコントローラ","description":null,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}},"changeInPeriod":false,"id":162,"category":{"id":4,"name":"platform","displayName":"プラットフォーム","description":""}}]
+[
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 35,
+		"name": "Moodle",
+		"score": 4.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 3,
+		"name": "PostgreSQL",
+		"score": 4.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 16,
+		"name": "Wordpress",
+		"score": 4.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークサービス",
+			"id": 32
+		},
+		"id": 11,
+		"name": "Samba",
+		"score": 4.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "アプリケーションサーバ",
+			"id": 19
+		},
+		"id": 2,
+		"name": "Apache Tomcat",
+		"score": 4.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Webサーバ",
+			"id": 20
+		},
+		"id": 1,
+		"name": "Apache HTTP server",
+		"score": 3.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 22,
+		"name": "Debian GNU/Linux",
+		"score": 3.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 4,
+		"name": "FreeBSD",
+		"score": 3.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "オフィススイート",
+			"id": 11
+		},
+		"id": 5,
+		"name": "Apache OpenOffice",
+		"score": 3.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 6,
+		"name": "MySQL",
+		"score": 3.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 190,
+		"name": "Ruby",
+		"score": 3.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 24,
+		"name": "openSUSE",
+		"score": 3.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 41,
+		"name": "CentOS",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 42,
+		"name": "Joomla!",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 108,
+		"name": "Nagios",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 189,
+		"name": "Python",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 9,
+		"name": "Qt",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 12,
+		"name": "Ruby on Rails",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "CRM",
+			"id": 7
+		},
+		"id": 13,
+		"name": "SugarCRM",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 15,
+		"name": "Ubuntu",
+		"score": 3.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ビジネスインテグレーション",
+			"id": 8
+		},
+		"id": 39,
+		"name": "JasperReports",
+		"score": 3.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "CRM",
+			"id": 7
+		},
+		"id": 214,
+		"name": "vtiger CRM",
+		"score": 3.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 188,
+		"name": "PHP",
+		"score": 3.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "プロジェクト管理",
+			"id": 14
+		},
+		"id": 51,
+		"name": "Redmine",
+		"score": 3.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 18,
+		"name": "Apache Cassandra",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 30,
+		"name": "Drupal",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "C/C++",
+			"id": 37
+		},
+		"id": 183,
+		"name": "GCC",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データアクセス",
+			"id": 2
+		},
+		"id": 14,
+		"name": "Apache Hadoop",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "アプリケーションサーバ",
+			"id": 19
+		},
+		"id": 7,
+		"name": "JBoss Application Server",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "オフィススイート",
+			"id": 11
+		},
+		"id": 58,
+		"name": "LibreOffice",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Webサーバ",
+			"id": 20
+		},
+		"id": 64,
+		"name": "NginX",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "CRM",
+			"id": 7
+		},
+		"id": 68,
+		"name": "OTRS",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークサービス",
+			"id": 32
+		},
+		"id": 37,
+		"name": "OpenLDAP",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークセキュリティ",
+			"id": 17
+		},
+		"id": 71,
+		"name": "OpenSSL",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "クラウド",
+			"id": 28
+		},
+		"id": 85,
+		"name": "OpenStack",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 38,
+		"name": "Postfix",
+		"score": 3.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "バージョン管理",
+			"id": 15
+		},
+		"id": 19,
+		"name": "Apache Subversion",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 159,
+		"name": "Fedora",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Webサーバ",
+			"id": 20
+		},
+		"id": 29,
+		"name": "Squid",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ETL",
+			"id": 23
+		},
+		"id": 26,
+		"name": "Talend Open Studio",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "仮想化",
+			"id": 27
+		},
+		"id": 27,
+		"name": "Xen Hypervisor",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 43,
+		"name": "Zabbix",
+		"score": 3.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークサービス",
+			"id": 32
+		},
+		"id": 158,
+		"name": "BIND",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "バージョン管理",
+			"id": 15
+		},
+		"id": 207,
+		"name": "CVS",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 55,
+		"name": "Dovecot",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 101,
+		"name": "Firebird",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 25,
+		"name": "LifeRay Portal Community Edition",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "検索エンジン",
+			"id": 24
+		},
+		"id": 33,
+		"name": "Apache Lucene",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "関数型言語",
+			"id": 34
+		},
+		"id": 34,
+		"name": "R",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 205,
+		"name": "SOS JobScheduler",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 8,
+		"name": "Apache Struts",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "バージョン管理",
+			"id": 15
+		},
+		"id": 44,
+		"name": "git ",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 157,
+		"name": "Sendmail",
+		"score": 3.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークサービス",
+			"id": 32
+		},
+		"id": 196,
+		"name": "GlusterFS",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データアクセス",
+			"id": 2
+		},
+		"id": 23,
+		"name": "Hibernate",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ロギング",
+			"id": 4
+		},
+		"id": 146,
+		"name": "Apache Log4J",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 211,
+		"name": "OpenPNE",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 187,
+		"name": "Perl",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 56,
+		"name": "Seasar2",
+		"score": 3.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "クラウド",
+			"id": 28
+		},
+		"id": 48,
+		"name": "Apache CloudStack",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ユーティリティ",
+			"id": 18
+		},
+		"id": 107,
+		"name": "ImageMagick",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ビジネスインテグレーション",
+			"id": 8
+		},
+		"id": 31,
+		"name": "Pentaho Business Intelligence Server",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Java/JVM言語",
+			"id": 36
+		},
+		"id": 191,
+		"name": "Scala",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークコントローラ",
+			"id": 31
+		},
+		"id": 75,
+		"name": "Vyatta",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 17,
+		"name": "Zend Framework",
+		"score": 2.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 66,
+		"name": "Amanda Community",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 46,
+		"name": "Cacti",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 206,
+		"name": "Chef",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 61,
+		"name": "Django Framework",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 143,
+		"name": "OpenCms",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 32,
+		"name": "Spring Framework",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 201,
+		"name": "Zimbra Collaboration Server",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 72,
+		"name": "jQuery",
+		"score": 2.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コミュニケーション",
+			"id": 10
+		},
+		"id": 20,
+		"name": "Asterisk",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "プロジェクト管理",
+			"id": 14
+		},
+		"id": 163,
+		"name": "Bugzilla",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ユーティリティ",
+			"id": 18
+		},
+		"id": 104,
+		"name": "GIMP",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "関数型言語",
+			"id": 34
+		},
+		"id": 193,
+		"name": "Haskell",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 185,
+		"name": "Lua",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 50,
+		"name": "MongoDB",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 142,
+		"name": "NetCommons",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークセキュリティ",
+			"id": 17
+		},
+		"id": 70,
+		"name": "Nmap",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "高可用性",
+			"id": 29
+		},
+		"id": 73,
+		"name": "Pacemaker",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 45,
+		"name": "Puppet",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "OS",
+			"id": 26
+		},
+		"id": 78,
+		"name": "Scientific Linux",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 145,
+		"name": "XOOPS",
+		"score": 2.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コミュニケーション",
+			"id": 10
+		},
+		"id": 28,
+		"name": "Apache OpenMeetings",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データアクセス",
+			"id": 2
+		},
+		"id": 150,
+		"name": "Oracle Berkeley DB",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "高可用性",
+			"id": 29
+		},
+		"id": 62,
+		"name": "DRBD",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "高可用性",
+			"id": 29
+		},
+		"id": 197,
+		"name": "Heartbeat",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "仮想化",
+			"id": 27
+		},
+		"id": 198,
+		"name": "Kernel-based Virtual Machine",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "セキュリティ",
+			"id": 22
+		},
+		"id": 154,
+		"name": "Kerberos",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 69,
+		"name": "MRTG",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークセキュリティ",
+			"id": 17
+		},
+		"id": 65,
+		"name": "OpenSSH",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークセキュリティ",
+			"id": 17
+		},
+		"id": 84,
+		"name": "Wireshark",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 202,
+		"name": "Cyrus IMAP Server",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 81,
+		"name": "node.js",
+		"score": 2.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ERP",
+			"id": 6
+		},
+		"id": 47,
+		"name": "ADempiere ERP Business Suite",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 21,
+		"name": "Alfresco",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "アンチウィルス",
+			"id": 16
+		},
+		"id": 76,
+		"name": "Clam Antivirus",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 74,
+		"name": "Dojo Toolkit",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "関数型言語",
+			"id": 34
+		},
+		"id": 182,
+		"name": "Erlang",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 103,
+		"name": "Hinemos",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 102,
+		"name": "MariaDB",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 77,
+		"name": "PhoneGap",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 144,
+		"name": "Plone",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データアクセス",
+			"id": 2
+		},
+		"id": 152,
+		"name": "SQLite",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 54,
+		"name": "Apache CouchDB",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "メールサーバ",
+			"id": 33
+		},
+		"id": 156,
+		"name": "qmail",
+		"score": 2.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コミュニケーション",
+			"id": 10
+		},
+		"id": 215,
+		"name": "Aipo",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 148,
+		"name": "CakePHP",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "開発",
+			"id": 12
+		},
+		"id": 164,
+		"name": "Eclipse",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "クラウド",
+			"id": 28
+		},
+		"id": 87,
+		"name": "Eucalyptus",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 112,
+		"name": "Grails",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ビジネスインテグレーション",
+			"id": 8
+		},
+		"id": 210,
+		"name": "Jaspersoft Studio",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "開発",
+			"id": 12
+		},
+		"id": 49,
+		"name": "Apache Maven",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": ".NET",
+			"id": 5
+		},
+		"id": 59,
+		"name": "Mono",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "シングルサインオン",
+			"id": 25
+		},
+		"id": 36,
+		"name": "OpenAM",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークセキュリティ",
+			"id": 17
+		},
+		"id": 63,
+		"name": "OpenVPN",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 110,
+		"name": "Pandora FMS",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 141,
+		"name": "eZ Publish",
+		"score": 2.4
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ERP",
+			"id": 6
+		},
+		"id": 67,
+		"name": "Compiere Community Edition",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ビジネスインテグレーション",
+			"id": 8
+		},
+		"id": 209,
+		"name": "Drools Expert",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "バージョン管理",
+			"id": 15
+		},
+		"id": 208,
+		"name": "Mantis",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ERP",
+			"id": 6
+		},
+		"id": 213,
+		"name": "MosP",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データアクセス",
+			"id": 2
+		},
+		"id": 52,
+		"name": "MyBATIS",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "仮想化",
+			"id": 27
+		},
+		"id": 53,
+		"name": "VirtualBox",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 155,
+		"name": "pgpool-II",
+		"score": 2.3
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 10,
+		"name": "Apache Axis2/Java",
+		"score": 2.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 153,
+		"name": "Apache Hbase",
+		"score": 2.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ビジネスインテグレーション",
+			"id": 8
+		},
+		"id": 79,
+		"name": "Weka",
+		"score": 2.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 88,
+		"name": "memcached",
+		"score": 2.2
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "開発",
+			"id": 12
+		},
+		"id": 60,
+		"name": "Apache Ant",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 147,
+		"name": "Bootstrap",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "アプリケーション",
+			"id": 1
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "コンテンツ管理",
+			"id": 9
+		},
+		"id": 212,
+		"name": "GateIn Portal",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "バージョン管理",
+			"id": 15
+		},
+		"id": 165,
+		"name": "Mercurial",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 167,
+		"name": "RRDtool",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Webサーバ",
+			"id": 20
+		},
+		"id": 90,
+		"name": "lighttpd",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 92,
+		"name": "Meteor",
+		"score": 2.1
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 149,
+		"name": "CodeIgniter",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "アプリケーションサーバ",
+			"id": 19
+		},
+		"id": 83,
+		"name": "Jetty",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Java/JVM言語",
+			"id": 36
+		},
+		"id": 186,
+		"name": "OpenJDK",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 151,
+		"name": "Play framework",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークコントローラ",
+			"id": 31
+		},
+		"id": 161,
+		"name": "Ryu",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "言語処理系",
+			"id": 5
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "スクリプト言語",
+			"id": 35
+		},
+		"id": 195,
+		"name": "SpiderMonkey",
+		"score": 2.0
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークコントローラ",
+			"id": 31
+		},
+		"id": 160,
+		"name": "Floodlight",
+		"score": 1.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "開発",
+			"id": 12
+		},
+		"id": 86,
+		"name": "Selenium IDE",
+		"score": 1.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "UIツールキット",
+			"id": 3
+		},
+		"id": 80,
+		"name": "YUI library",
+		"score": 1.9
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "セキュリティ",
+			"id": 22
+		},
+		"id": 203,
+		"name": "OpenVAS",
+		"score": 1.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "プロジェクト管理",
+			"id": 14
+		},
+		"id": 82,
+		"name": "Trac",
+		"score": 1.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "負荷分散",
+			"id": 30
+		},
+		"id": 89,
+		"name": "UltraMonkey-L7",
+		"score": 1.8
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "プロジェクト管理",
+			"id": 14
+		},
+		"id": 91,
+		"name": "OpenProj",
+		"score": 1.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 111,
+		"name": "OpsView",
+		"score": 1.7
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 105,
+		"name": "GroundWork Monitor",
+		"score": 1.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ミドルウェア",
+			"id": 3
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "データベース管理システム",
+			"id": 21
+		},
+		"id": 199,
+		"name": "Infinispan",
+		"score": 1.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ツール",
+			"id": 2
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "運用",
+			"id": 13
+		},
+		"id": 109,
+		"name": "Xymon",
+		"score": 1.6
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "ライブラリ／フレームワーク",
+			"id": 0
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "Web APフレームワーク",
+			"id": 1
+		},
+		"id": 57,
+		"name": "JBoss Seam",
+		"score": 1.5
+	},
+	{
+		"category": {
+			"childCategories": null,
+			"displayName": "プラットフォーム",
+			"id": 4
+		},
+		"childCategory": {
+			"childCategories": null,
+			"displayName": "ネットワークコントローラ",
+			"id": 31
+		},
+		"id": 162,
+		"name": "Trema",
+		"score": 1.4
+	}
+]
