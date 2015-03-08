@@ -24,6 +24,7 @@ var RadarBackground = React.createClass({
         fontFamily: 'Arial',
         textAnchor: 'middle'
       };
+      if (!_this.props.isChildCategory) textStyle.cursor = 'pointer';
       var translate = 'translate(' + Constants.RADER_CENTER_X + ',' + Constants.RADER_CENTER_Y + ')';
       var arc = 360 / _this.props.categories.length;
       var radian = arc * i + arc / 2;
