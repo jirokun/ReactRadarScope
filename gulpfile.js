@@ -70,6 +70,15 @@ gulp.task('serve', function(){
 });
 gulp.task('default', ['build', 'react', 'watch', 'serve']);
 
+gulp.task('serve-prod', function() {
+  connect.server({
+    root: './dist',
+    port: process.env.PORT || 5000,
+    livereload: false
+  });
+});
+gulp.task('production', ['build', 'react', 'watch', 'serve-prod']);
+
 gulp.task('jest', function(callback) {
   var options = {
     rootDir: __dirname,
