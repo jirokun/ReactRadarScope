@@ -77,7 +77,7 @@ gulp.task('serve-prod', function() {
     livereload: false
   });
 });
-gulp.task('production', ['build', 'react', 'watch', 'serve-prod']);
+gulp.task('production', ['build', 'serve-prod']);
 
 gulp.task('jest', function(callback) {
   var options = {
