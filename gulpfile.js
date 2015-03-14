@@ -9,6 +9,10 @@ var concat = require('gulp-concat');
 var sourcemaps = require('gulp-sourcemaps');
 var merge = require('event-stream').merge;
 
+// for Test
+var jest = require('jest-cli');
+require('harmonize')();
+
 gulp.task('build', ['copy', 'react', 'sass', 'webpack']);
 
 gulp.task('webpack', function (callback) {
@@ -65,3 +69,30 @@ gulp.task('serve', function(){
   });
 });
 gulp.task('default', ['build', 'react', 'watch', 'serve']);
+
+gulp.task('serve-prod', function() {
+  connect.server({
+    root: './dist',
+    port: process.env.PORT || 5000,
+    livereload: false
+  });
+});
+gulp.task('production', ['build', 'serve-prod']);
+
+gulp.task('jest', function(callback) {
+  var options = {
+    rootDir: __dirname,
+    scriptPreprocessor: '<rootDir>/test_preprocessor.js',
+    unmockedModulePathPatterns: [
+      '<rootDir>/node_modules/react'
+    ],
+    testDirectoryName: 'test/js',
+    moduleFileExtensions: ["js", "jsx"],
+    testFileExtensions: ['js']
+  }
+
+  var onComplete = function(result) {
+    callback();
+  }
+  jest.runCLI({config: options}, __dirname, onComplete);
+});

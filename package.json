@@ -1,14 +1,20 @@
 {
   "name": "radar",
   "version": "0.0.0",
-  "description": "",
+  "description": "Reactive RadarScope",
   "main": "index.js",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+  },
+  "dependencies": {
     "css-loader": "^0.9.1",
     "event-stream": "^3.2.2",
     "gulp": "^3.8.10",
@@ -29,7 +35,9 @@
     "gulp-util": "^3.0.1",
     "gulp-watch": "^3.0.0",
     "gulp-webpack": "^1.1.0",
+    "harmonize": "^1.33.7",
     "html-loader": "^0.2.3",
+    "jest-cli": "^0.2.1",
     "jsx-loader": "^0.12.2",
     "lazypipe": "^0.2.2",
     "nib": "^1.0.4",
@@ -39,9 +47,7 @@
     "style-loader": "^0.8.3",
     "stylus-loader": "^0.4.0",
     "webpack": "^1.4.13",
-    "webpack-dev-server": "^1.6.6"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^1.6.6",
     "async": "^0.9.0",
     "bootstrap": "^3.3.2",
     "colr": "^1.2.1",
@@ -51,6 +57,7 @@
     "node-uuid": "^1.4.2",
     "react": "^0.12.2",
     "react-router": "^0.12.0",
+    "react-tools": "^0.12.2",
     "superagent": "^0.21.0"
   }
 }
