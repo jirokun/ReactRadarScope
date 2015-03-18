@@ -88,7 +88,7 @@ gulp.task('jest', function(callback) {
     ],
     testDirectoryName: 'test/js',
     moduleFileExtensions: ["js", "jsx"],
-    testFileExtensions: ['js']
+    testFileExtensions: ['js', 'jsx']
   }
 
   var onComplete = function(result) {

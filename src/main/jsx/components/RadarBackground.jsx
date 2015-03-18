@@ -34,7 +34,7 @@ var RadarBackground = React.createClass({
       var labelRot = radian > 90 && radian < 270 ? 180 : 0;
       return (
         <g key={'category-label-group-' + i} transform={transform}>
-          <text key={'category-label-' + i} data-categoryid={category.id} transform={'rotate(' + labelRot + ',0,-300)'} y="-300" stroke="none" fill="#666666" style={textStyle}>{category.displayName}</text>
+          <text key={'category-label-' + i} className="category-label" data-categoryid={category.id} transform={'rotate(' + labelRot + ',0,-300)'} y="-300" stroke="none" fill="#666666" style={textStyle}>{category.displayName}</text>
         </g>
       );
     });
@@ -60,7 +60,7 @@ var RadarBackground = React.createClass({
     var ranks = [];
     for (var i = 1; i <= 4; i++) {
       var y = Constants.RADER_CENTER_Y - (Constants.RADER_SPACING * i) + (Constants.RADER_SPACING / 2);
-      ranks.push(<text key={"ranks-" + i} x={Constants.RADER_CENTER_X} y={y} font="10px Arial">{i}</text>);
+      ranks.push(<text key={"ranks-" + i} className="rank-text" x={Constants.RADER_CENTER_X} y={y} font="10px Arial">{i}</text>);
     }
     return ranks;
   },
