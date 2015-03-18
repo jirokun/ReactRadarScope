@@ -14,16 +14,16 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
   if (isChildCategory) {
     categoryId = args.params.categoryId;
     urls = [
-      Constants.ROOT_PATH + 'category/' + categoryId + '/' + yearMonth +  '.json',
-      Constants.ROOT_PATH + 'categories/' + categoryId + '.json',
-      Constants.ROOT_PATH + 'products.json'
+      Constants.ROOT_PATH + 'radarScope/category/' + categoryId + '/' + yearMonth +  '.json',
+      Constants.ROOT_PATH + 'radarScope/categories/' + categoryId + '.json',
+      Constants.ROOT_PATH + 'radarScope/products.json'
     ];
   } else {
     categoryId = 'root';
     urls = [
-      Constants.ROOT_PATH + yearMonth +  '.json',
-      Constants.ROOT_PATH + 'categories/' + categoryId + '.json',
-      Constants.ROOT_PATH + 'products.json'
+      Constants.ROOT_PATH + 'radarScope/' + yearMonth +  '.json',
+      Constants.ROOT_PATH + 'radarScope/categories/' + categoryId + '.json',
+      Constants.ROOT_PATH + 'radarScope/products.json'
     ];
   }
   async.map(urls, function(url, cb) {
