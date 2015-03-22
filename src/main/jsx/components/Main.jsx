@@ -37,14 +37,22 @@ var Main = React.createClass({
       position: 'relative'
     };
     return (
-      <div key="rader-scope-main" className="radar-scope">
-        <Calendar rankDates={this.props.rankDates}/>
-        <span key="radar-scope-arrow1" className="glyphicon glyphicon-chevron-right"></span>
-        <OssList products={this.props.products} dotPosition={this.props.dotPosition} yearMonth={this.props.yearMonth} selectedOssId={this.state.selectedOssId}/>
-        <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
-        <div style={radarContainerStyle}>
-          <Radar yearMonth={this.props.yearMonth} categories={this.props.categories} dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId} isChildCategory={this.props.isChildCategory}/>
-          <FloatingLabel dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId}/>
+      <div key="radar-scope-main" className="radar-scope">
+        <div className="radar-scope-header">
+          <span>{this.props.yearMonth.substr(0, 4)}</span>
+          <span>&nbsp;年&nbsp;</span>
+          <span>{this.props.yearMonth.substr(4)}</span>
+          <span>&nbsp;月のレーダースコープ</span>
+        </div>
+        <div className="radar-scope-body">
+          <Calendar rankDates={this.props.rankDates}/>
+          <span key="radar-scope-arrow1" className="glyphicon glyphicon-chevron-right"></span>
+          <OssList products={this.props.products} dotPosition={this.props.dotPosition} yearMonth={this.props.yearMonth} selectedOssId={this.state.selectedOssId}/>
+          <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
+          <div style={radarContainerStyle}>
+            <Radar yearMonth={this.props.yearMonth} categories={this.props.categories} dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId} isChildCategory={this.props.isChildCategory}/>
+            <FloatingLabel dotPosition={this.props.dotPosition} selectedOssId={this.state.selectedOssId}/>
+          </div>
         </div>
       </div>
     );
