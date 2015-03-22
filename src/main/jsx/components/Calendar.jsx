@@ -6,22 +6,11 @@ var Link = Router.Link;
 require('date-utils');
 
 var Calendar = React.createClass({
-  getInitialState: function() {
-    var d = new Date();
-    var lounchDate = Constants.RADER_SCOPE_LAUNCH_DATE;
-    var dates = [];
-    while (d.getTime() > Constants.RADER_SCOPE_LAUNCH_DATE.getTime()) {
-      dates.push(d);
-      d = d.clone().addMonths(-1);
-    }
-    return {
-      dates: dates
-    };
-  },
   _dates: function() {
     var _this = this;
-    return this.state.dates.map(function(d) {
+    return this.props.rankDates.map(function(d) {
       var dateStr = d.toFormat('YYYY年MM月');
+      console.log(dateStr);
       var link = Constants.ROOT_PATH + 'radarScope/' + d.toFormat(Constants.YEAR_MONTH_FORMAT);
       return <li key={"calendar-month-" + dateStr}><Link to={link}>{dateStr}</Link></li>;
     });

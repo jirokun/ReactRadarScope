@@ -23,7 +23,8 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
     urls = [
       Constants.ROOT_PATH + 'radarScope/' + yearMonth +  '.json',
       Constants.ROOT_PATH + 'radarScope/categories/' + categoryId + '.json',
-      Constants.ROOT_PATH + 'radarScope/products.json'
+      Constants.ROOT_PATH + 'radarScope/products.json',
+      Constants.ROOT_PATH + 'radarScope/rank_date.json'
     ];
   }
   async.map(urls, function(url, cb) {
@@ -39,6 +40,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
     var ranking = responses[0].body;
     var categories = responses[1].body;
     var products = responses[2].body;
+    var rankDates = responses[3].body.map(function(unixTime) { return new Date(unixTime * 1000); });
     var dotPosition = RadarStore.calcDotPosition(args.path, yearMonth, ranking, categories, isChildCategory);
     var props = {
       isChildCategory: isChildCategory,
@@ -46,6 +48,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
       categories: categories,
       products: products,
       yearMonth: yearMonth,
+      rankDates: rankDates,
       dotPosition: dotPosition
     };
     React.render(<Handler {...props}/>, document.body);

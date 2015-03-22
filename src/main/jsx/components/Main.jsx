@@ -38,7 +38,7 @@ var Main = React.createClass({
     };
     return (
       <div key="rader-scope-main" className="radar-scope">
-        <Calendar/>
+        <Calendar rankDates={this.props.rankDates}/>
         <span key="radar-scope-arrow1" className="glyphicon glyphicon-chevron-right"></span>
         <OssList products={this.props.products} dotPosition={this.props.dotPosition} yearMonth={this.props.yearMonth} selectedOssId={this.state.selectedOssId}/>
         <span key="radar-scope-arrow2" className="glyphicon glyphicon-chevron-right"></span>
