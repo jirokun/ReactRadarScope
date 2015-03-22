@@ -51,6 +51,6 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
       rankDates: rankDates,
       dotPosition: dotPosition
     };
-    React.render(<Handler {...props}/>, document.body);
+    React.render(<Handler {...props}/>, document.getElementById('radarScope'));
   });
 });
