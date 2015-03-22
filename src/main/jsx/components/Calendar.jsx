@@ -10,7 +10,6 @@ var Calendar = React.createClass({
     var _this = this;
     return this.props.rankDates.map(function(d) {
       var dateStr = d.toFormat('YYYY年MM月');
-      console.log(dateStr);
       var link = Constants.ROOT_PATH + 'radarScope/' + d.toFormat(Constants.YEAR_MONTH_FORMAT);
       return <li key={"calendar-month-" + dateStr}><Link to={link}>{dateStr}</Link></li>;
     });

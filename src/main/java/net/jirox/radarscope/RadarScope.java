@@ -60,20 +60,22 @@ public class RadarScope {
 	 * @param productList
 	 * @param categoryList
 	 * @param rankingList
+	 * @param rankDateList
 	 * @return
 	 * @throws ScriptException
 	 * @throws IOException
 	 */
 	public synchronized String render(String path, String yearMonth,
 			List<Product> productList, List<Category> categoryList,
-			List<Product> rankingList, boolean isChildCategory)
-			throws ScriptException, IOException {
+			List<Product> rankingList, List<Long> rankdDateList,
+			boolean isChildCategory) throws ScriptException, IOException {
 		// 使用する変数を定義
 		Bindings bindings = engine.getBindings(ScriptContext.ENGINE_SCOPE);
 		bindings.put("yearMonth", yearMonth);
 		bindings.put("productList", productList);
 		bindings.put("categoryList", categoryList);
 		bindings.put("rankingList", rankingList);
+		bindings.put("rankdDateList", rankdDateList);
 		bindings.put("isChildCategory", isChildCategory);
 		bindings.put("url", path);
 		String server = getJavaScriptSource("./dist/scripts/server.js");

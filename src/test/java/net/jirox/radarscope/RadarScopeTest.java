@@ -7,6 +7,7 @@ import static org.junit.Assert.fail;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -35,9 +36,11 @@ public class RadarScopeTest {
 		categoryList.add(categoryWeb);
 		String yearMonth = "201502";
 		String path = "/radarScope/201502";
+		List<Long> rankDateList = new ArrayList<>();
+		rankDateList.add(new Date().getTime());
 
 		String html = RadarScope.getInstance().render(path, yearMonth,
-				productList, categoryList, rankingList, false);
+				productList, categoryList, rankingList, rankDateList, false);
 		return html;
 	}
 
@@ -73,6 +76,8 @@ public class RadarScopeTest {
 		categoryList.add(categoryWeb);
 		String yearMonth = "201502";
 		String path = "/radarScope/201502";
+		List<Long> rankDateList = new ArrayList<>();
+		rankDateList.add(new Date().getTime());
 
 		ExecutorService es = Executors.newFixedThreadPool(10);
 		List<Callable<Boolean>> callableList = new ArrayList<>();
@@ -82,7 +87,8 @@ public class RadarScopeTest {
 				public Boolean call() throws Exception {
 					try {
 						RadarScope.getInstance().render(path, yearMonth,
-								productList, categoryList, rankingList, false);
+								productList, categoryList, rankingList,
+								rankDateList, false);
 						return true;
 					} catch (Exception e) {
 						return false;
