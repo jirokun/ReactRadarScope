@@ -25,7 +25,7 @@ import net.jirox.radarscope.models.Product;
  */
 public class RadarScope {
 	private static RadarScope instance;
-	private final ScriptEngine engine = new ScriptEngineManager()
+	private final ScriptEngine engine = new ScriptEngineManager(null)
 			.getEngineByName("nashorn");
 
 	private RadarScope() throws ScriptException {
@@ -67,7 +67,7 @@ public class RadarScope {
 	 */
 	public synchronized String render(String path, String yearMonth,
 			List<Product> productList, List<Category> categoryList,
-			List<Product> rankingList, List<Long> rankdDateList,
+			List<Product> rankingList, List<Long> rankDateList,
 			boolean isChildCategory) throws ScriptException, IOException {
 		// 使用する変数を定義
 		Bindings bindings = engine.getBindings(ScriptContext.ENGINE_SCOPE);
@@ -75,7 +75,7 @@ public class RadarScope {
 		bindings.put("productList", productList);
 		bindings.put("categoryList", categoryList);
 		bindings.put("rankingList", rankingList);
-		bindings.put("rankdDateList", rankdDateList);
+		bindings.put("rankDateList", rankDateList);
 		bindings.put("isChildCategory", isChildCategory);
 		bindings.put("url", path);
 		String server = getJavaScriptSource("./dist/scripts/server.js");
