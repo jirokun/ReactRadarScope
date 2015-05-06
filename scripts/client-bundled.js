@@ -130,7 +130,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = {
-	  ROOT_PATH: '/',
+	  ROOT_PATH: '/ReactiveRadarScope/',
 	  RADER_RADIUS: 280,
 	  RADER_CENTER_X: 320,
 	  RADER_CENTER_Y: 330,
