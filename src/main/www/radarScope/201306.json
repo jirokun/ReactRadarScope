@@ -2,167 +2,32 @@
   {
     "category": {
       "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "UIツールキット",
-      "id": 3
-    },
-    "id": 77,
-    "name": "PhoneGap",
-    "score": 4.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 212,
-    "name": "GateIn Portal",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 157,
-    "name": "Sendmail",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 42,
-    "name": "Joomla!",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークサービス",
-      "id": 32
-    },
-    "id": 37,
-    "name": "OpenLDAP",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークサービス",
-      "id": 32
-    },
-    "id": 196,
-    "name": "GlusterFS",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 6,
-    "name": "MySQL",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Webサーバ",
-      "id": 20
-    },
-    "id": 90,
-    "name": "lighttpd",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "高可用性",
-      "id": 29
-    },
-    "id": 197,
-    "name": "Heartbeat",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ERP",
-      "id": 6
-    },
-    "id": 47,
-    "name": "ADempiere ERP Business Suite",
-    "score": 4.4
-  },
-  {
-    "category": {
-      "childCategories": null,
       "displayName": "ツール",
       "id": 2
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "開発",
-      "id": 12
+      "displayName": "ユーティリティ",
+      "id": 18
     },
-    "id": 164,
-    "name": "Eclipse",
-    "score": 4.4
+    "id": 104,
+    "name": "GIMP",
+    "score": 4.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "OS",
+      "id": 26
+    },
+    "id": 4,
+    "name": "FreeBSD",
+    "score": 4.5
   },
   {
     "category": {
@@ -175,24 +40,9 @@
       "displayName": "プロジェクト管理",
       "id": 14
     },
-    "id": 82,
-    "name": "Trac",
-    "score": 4.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Webサーバ",
-      "id": 20
-    },
-    "id": 64,
-    "name": "NginX",
-    "score": 4.3
+    "id": 163,
+    "name": "Bugzilla",
+    "score": 4.5
   },
   {
     "category": {
@@ -205,9 +55,24 @@
       "displayName": "データベース管理システム",
       "id": 21
     },
-    "id": 102,
-    "name": "MariaDB",
-    "score": 4.3
+    "id": 54,
+    "name": "Apache CouchDB",
+    "score": 4.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ユーティリティ",
+      "id": 18
+    },
+    "id": 107,
+    "name": "ImageMagick",
+    "score": 4.4
   },
   {
     "category": {
@@ -217,27 +82,57 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": ".NET",
-      "id": 5
+      "displayName": "Web APフレームワーク",
+      "id": 1
     },
-    "id": 59,
-    "name": "Mono",
-    "score": 4.3
+    "id": 92,
+    "name": "Meteor",
+    "score": 4.4
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
+      "displayName": "Web APフレームワーク",
+      "id": 1
     },
-    "id": 16,
-    "name": "Wordpress",
-    "score": 4.3
+    "id": 10,
+    "name": "Apache Axis2/Java",
+    "score": 4.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Java/JVM言語",
+      "id": 36
+    },
+    "id": 191,
+    "name": "Scala",
+    "score": 4.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "バージョン管理",
+      "id": 15
+    },
+    "id": 19,
+    "name": "Apache Subversion",
+    "score": 4.4
   },
   {
     "category": {
@@ -257,16 +152,31 @@
   {
     "category": {
       "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
+      "displayName": "言語処理系",
+      "id": 5
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
+      "displayName": "スクリプト言語",
+      "id": 35
     },
-    "id": 155,
-    "name": "pgpool-II",
+    "id": 190,
+    "name": "Ruby",
+    "score": 4.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 43,
+    "name": "Zabbix",
     "score": 4.3
   },
   {
@@ -277,12 +187,87 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "クラウド",
-      "id": 28
+      "displayName": "高可用性",
+      "id": 29
     },
-    "id": 48,
-    "name": "Apache CloudStack",
+    "id": 197,
+    "name": "Heartbeat",
     "score": 4.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 69,
+    "name": "MRTG",
+    "score": 4.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 25,
+    "name": "LifeRay Portal Community Edition",
+    "score": 4.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データアクセス",
+      "id": 2
+    },
+    "id": 52,
+    "name": "MyBATIS",
+    "score": 4.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 206,
+    "name": "Chef",
+    "score": 4.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 110,
+    "name": "Pandora FMS",
+    "score": 4.2
   },
   {
     "category": {
@@ -295,38 +280,38 @@
       "displayName": "Web APフレームワーク",
       "id": 1
     },
-    "id": 10,
-    "name": "Apache Axis2/Java",
+    "id": 61,
+    "name": "Django Framework",
     "score": 4.2
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
+      "displayName": "アプリケーション",
       "id": 1
     },
-    "id": 112,
-    "name": "Grails",
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "CRM",
+      "id": 7
+    },
+    "id": 68,
+    "name": "OTRS",
     "score": 4.2
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
+      "displayName": "アプリケーション",
+      "id": 1
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ネットワークコントローラ",
-      "id": 31
+      "displayName": "ビジネスインテグレーション",
+      "id": 8
     },
-    "id": 75,
-    "name": "Vyatta",
+    "id": 210,
+    "name": "Jaspersoft Studio",
     "score": 4.2
   },
   {
@@ -337,12 +322,27 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ETL",
-      "id": 23
+      "displayName": "セキュリティ",
+      "id": 22
     },
-    "id": 26,
-    "name": "Talend Open Studio",
-    "score": 4.1
+    "id": 203,
+    "name": "OpenVAS",
+    "score": 4.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "関数型言語",
+      "id": 34
+    },
+    "id": 182,
+    "name": "Erlang",
+    "score": 4.2
   },
   {
     "category": {
@@ -352,11 +352,26 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "アプリケーションサーバ",
-      "id": 19
+      "displayName": "検索エンジン",
+      "id": 24
     },
-    "id": 83,
-    "name": "Jetty",
+    "id": 33,
+    "name": "Apache Lucene",
+    "score": 4.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 108,
+    "name": "Nagios",
     "score": 4.1
   },
   {
@@ -382,12 +397,117 @@
     },
     "childCategory": {
       "childCategories": null,
+      "displayName": "プロジェクト管理",
+      "id": 14
+    },
+    "id": 91,
+    "name": "OpenProj",
+    "score": 4.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
       "displayName": "運用",
       "id": 13
     },
-    "id": 66,
-    "name": "Amanda Community",
-    "score": 4.1
+    "id": 167,
+    "name": "RRDtool",
+    "score": 4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークセキュリティ",
+      "id": 17
+    },
+    "id": 65,
+    "name": "OpenSSH",
+    "score": 4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 145,
+    "name": "XOOPS",
+    "score": 4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "アプリケーションサーバ",
+      "id": 19
+    },
+    "id": 7,
+    "name": "JBoss Application Server",
+    "score": 4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "OS",
+      "id": 26
+    },
+    "id": 78,
+    "name": "Scientific Linux",
+    "score": 4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 81,
+    "name": "node.js",
+    "score": 3.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 101,
+    "name": "Firebird",
+    "score": 3.9
   },
   {
     "category": {
@@ -402,7 +522,7 @@
     },
     "id": 86,
     "name": "Selenium IDE",
-    "score": 4
+    "score": 3.9
   },
   {
     "category": {
@@ -412,71 +532,11 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "高可用性",
-      "id": 29
+      "displayName": "クラウド",
+      "id": 28
     },
-    "id": 62,
-    "name": "DRBD",
-    "score": 4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 57,
-    "name": "JBoss Seam",
-    "score": 4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "バージョン管理",
-      "id": 15
-    },
-    "id": 165,
-    "name": "Mercurial",
-    "score": 4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Java/JVM言語",
-      "id": 36
-    },
-    "id": 191,
-    "name": "Scala",
-    "score": 4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 202,
-    "name": "Cyrus IMAP Server",
+    "id": 87,
+    "name": "Eucalyptus",
     "score": 3.9
   },
   {
@@ -490,54 +550,9 @@
       "displayName": "開発",
       "id": 12
     },
-    "id": 49,
-    "name": "Apache Maven",
+    "id": 60,
+    "name": "Apache Ant",
     "score": 3.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "CRM",
-      "id": 7
-    },
-    "id": 13,
-    "name": "SugarCRM",
-    "score": 3.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 151,
-    "name": "Play framework",
-    "score": 3.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コミュニケーション",
-      "id": 10
-    },
-    "id": 215,
-    "name": "Aipo",
-    "score": 3.8
   },
   {
     "category": {
@@ -557,122 +572,17 @@
   {
     "category": {
       "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
+      "displayName": "アプリケーション",
+      "id": 1
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "UIツールキット",
-      "id": 3
+      "displayName": "ビジネスインテグレーション",
+      "id": 8
     },
-    "id": 74,
-    "name": "Dojo Toolkit",
+    "id": 31,
+    "name": "Pentaho Business Intelligence Server",
     "score": 3.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークセキュリティ",
-      "id": 17
-    },
-    "id": 84,
-    "name": "Wireshark",
-    "score": 3.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 21,
-    "name": "Alfresco",
-    "score": 3.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ERP",
-      "id": 6
-    },
-    "id": 67,
-    "name": "Compiere Community Edition",
-    "score": 3.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 92,
-    "name": "Meteor",
-    "score": 3.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データアクセス",
-      "id": 2
-    },
-    "id": 14,
-    "name": "Apache Hadoop",
-    "score": 3.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
-    },
-    "id": 190,
-    "name": "Ruby",
-    "score": 3.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "CRM",
-      "id": 7
-    },
-    "id": 68,
-    "name": "OTRS",
-    "score": 3.6
   },
   {
     "category": {
@@ -687,7 +597,52 @@
     },
     "id": 70,
     "name": "Nmap",
-    "score": 3.5
+    "score": 3.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ビジネスインテグレーション",
+      "id": 8
+    },
+    "id": 79,
+    "name": "Weka",
+    "score": 3.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 142,
+    "name": "NetCommons",
+    "score": 3.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークセキュリティ",
+      "id": 17
+    },
+    "id": 84,
+    "name": "Wireshark",
+    "score": 3.7
   },
   {
     "category": {
@@ -697,27 +652,27 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
+      "displayName": "UIツールキット",
+      "id": 3
     },
-    "id": 17,
-    "name": "Zend Framework",
-    "score": 3.4
+    "id": 80,
+    "name": "YUI library",
+    "score": 3.6
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
+      "displayName": "UIツールキット",
+      "id": 3
     },
-    "id": 189,
-    "name": "Python",
-    "score": 3.4
+    "id": 77,
+    "name": "PhoneGap",
+    "score": 3.6
   },
   {
     "category": {
@@ -730,39 +685,9 @@
       "displayName": "OS",
       "id": 26
     },
-    "id": 4,
-    "name": "FreeBSD",
-    "score": 3.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 69,
-    "name": "MRTG",
-    "score": 3.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 3,
-    "name": "PostgreSQL",
-    "score": 3.4
+    "id": 159,
+    "name": "Fedora",
+    "score": 3.6
   },
   {
     "category": {
@@ -777,7 +702,37 @@
     },
     "id": 152,
     "name": "SQLite",
-    "score": 3.4
+    "score": 3.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "スクリプト言語",
+      "id": 35
+    },
+    "id": 188,
+    "name": "PHP",
+    "score": 3.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": ".NET",
+      "id": 5
+    },
+    "id": 59,
+    "name": "Mono",
+    "score": 3.6
   },
   {
     "category": {
@@ -787,12 +742,27 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ネットワークコントローラ",
-      "id": 31
+      "displayName": "仮想化",
+      "id": 27
     },
-    "id": 160,
-    "name": "Floodlight",
-    "score": 3.3
+    "id": 27,
+    "name": "Xen Hypervisor",
+    "score": 3.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 102,
+    "name": "MariaDB",
+    "score": 3.5
   },
   {
     "category": {
@@ -805,8 +775,38 @@
       "displayName": "Web APフレームワーク",
       "id": 1
     },
-    "id": 32,
-    "name": "Spring Framework",
+    "id": 56,
+    "name": "Seasar2",
+    "score": 3.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "UIツールキット",
+      "id": 3
+    },
+    "id": 9,
+    "name": "Qt",
+    "score": 3.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ビジネスインテグレーション",
+      "id": 8
+    },
+    "id": 39,
+    "name": "JasperReports",
     "score": 3.3
   },
   {
@@ -817,11 +817,26 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ネットワークサービス",
-      "id": 32
+      "displayName": "OS",
+      "id": 26
     },
-    "id": 11,
-    "name": "Samba",
+    "id": 24,
+    "name": "openSUSE",
+    "score": 3.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ERP",
+      "id": 6
+    },
+    "id": 213,
+    "name": "MosP",
     "score": 3.3
   },
   {
@@ -842,61 +857,16 @@
   {
     "category": {
       "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
+      "displayName": "プラットフォーム",
+      "id": 4
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "シングルサインオン",
-      "id": 25
+      "displayName": "ネットワークコントローラ",
+      "id": 31
     },
-    "id": 36,
-    "name": "OpenAM",
-    "score": 3.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "バージョン管理",
-      "id": 15
-    },
-    "id": 44,
-    "name": "git ",
-    "score": 3.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "アプリケーションサーバ",
-      "id": 19
-    },
-    "id": 2,
-    "name": "Apache Tomcat",
-    "score": 3.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 54,
-    "name": "Apache CouchDB",
+    "id": 162,
+    "name": "Trema",
     "score": 3.3
   },
   {
@@ -907,117 +877,12 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "OS",
-      "id": 26
+      "displayName": "ネットワークコントローラ",
+      "id": 31
     },
-    "id": 24,
-    "name": "openSUSE",
-    "score": 3.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 206,
-    "name": "Chef",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "バージョン管理",
-      "id": 15
-    },
-    "id": 19,
-    "name": "Apache Subversion",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "バージョン管理",
-      "id": 15
-    },
-    "id": 207,
-    "name": "CVS",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "UIツールキット",
-      "id": 3
-    },
-    "id": 80,
-    "name": "YUI library",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 12,
-    "name": "Ruby on Rails",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 156,
-    "name": "qmail",
-    "score": 3.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 38,
-    "name": "Postfix",
-    "score": 3
+    "id": 161,
+    "name": "Ryu",
+    "score": 3.3
   },
   {
     "category": {
@@ -1032,7 +897,187 @@
     },
     "id": 109,
     "name": "Xymon",
-    "score": 2.9
+    "score": 3.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 18,
+    "name": "Apache Cassandra",
+    "score": 3.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "クラウド",
+      "id": 28
+    },
+    "id": 48,
+    "name": "Apache CloudStack",
+    "score": 3.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "UIツールキット",
+      "id": 3
+    },
+    "id": 147,
+    "name": "Bootstrap",
+    "score": 3.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Webサーバ",
+      "id": 20
+    },
+    "id": 29,
+    "name": "Squid",
+    "score": 3.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ERP",
+      "id": 6
+    },
+    "id": 67,
+    "name": "Compiere Community Edition",
+    "score": 3.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "C/C++",
+      "id": 37
+    },
+    "id": 183,
+    "name": "GCC",
+    "score": 3.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 57,
+    "name": "JBoss Seam",
+    "score": 3.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 141,
+    "name": "eZ Publish",
+    "score": 3.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "負荷分散",
+      "id": 30
+    },
+    "id": 89,
+    "name": "UltraMonkey-L7",
+    "score": 3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 149,
+    "name": "CodeIgniter",
+    "score": 3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 30,
+    "name": "Drupal",
+    "score": 3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "シングルサインオン",
+      "id": 25
+    },
+    "id": 36,
+    "name": "OpenAM",
+    "score": 3
   },
   {
     "category": {
@@ -1057,1017 +1102,12 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ビジネスインテグレーション",
-      "id": 8
-    },
-    "id": 31,
-    "name": "Pentaho Business Intelligence Server",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "セキュリティ",
-      "id": 22
-    },
-    "id": 203,
-    "name": "OpenVAS",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
-    },
-    "id": 188,
-    "name": "PHP",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "関数型言語",
-      "id": 34
-    },
-    "id": 182,
-    "name": "Erlang",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 50,
-    "name": "MongoDB",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
       "displayName": "コンテンツ管理",
       "id": 9
     },
-    "id": 35,
-    "name": "Moodle",
-    "score": 2.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ビジネスインテグレーション",
-      "id": 8
-    },
-    "id": 39,
-    "name": "JasperReports",
-    "score": 2.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 148,
-    "name": "CakePHP",
-    "score": 2.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 8,
-    "name": "Apache Struts",
-    "score": 2.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 81,
-    "name": "node.js",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "クラウド",
-      "id": 28
-    },
-    "id": 87,
-    "name": "Eucalyptus",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "プロジェクト管理",
-      "id": 14
-    },
-    "id": 51,
-    "name": "Redmine",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 105,
-    "name": "GroundWork Monitor",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "OS",
-      "id": 26
-    },
-    "id": 159,
-    "name": "Fedora",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 205,
-    "name": "SOS JobScheduler",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 101,
-    "name": "Firebird",
-    "score": 2.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 199,
-    "name": "Infinispan",
-    "score": 2.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "OS",
-      "id": 26
-    },
-    "id": 22,
-    "name": "Debian GNU/Linux",
-    "score": 2.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 141,
-    "name": "eZ Publish",
-    "score": 2.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "アプリケーションサーバ",
-      "id": 19
-    },
-    "id": 7,
-    "name": "JBoss Application Server",
-    "score": 2.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "UIツールキット",
-      "id": 3
-    },
-    "id": 9,
-    "name": "Qt",
-    "score": 2.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
-    },
-    "id": 185,
-    "name": "Lua",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 110,
-    "name": "Pandora FMS",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 103,
-    "name": "Hinemos",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "関数型言語",
-      "id": 34
-    },
-    "id": 193,
-    "name": "Haskell",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ERP",
-      "id": 6
-    },
-    "id": 213,
-    "name": "MosP",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 43,
-    "name": "Zabbix",
-    "score": 2.4
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 111,
-    "name": "OpsView",
-    "score": 2.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "バージョン管理",
-      "id": 15
-    },
-    "id": 208,
-    "name": "Mantis",
-    "score": 2.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コミュニケーション",
-      "id": 10
-    },
-    "id": 20,
-    "name": "Asterisk",
-    "score": 2.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Webサーバ",
-      "id": 20
-    },
-    "id": 1,
-    "name": "Apache HTTP server",
-    "score": 2.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 25,
-    "name": "LifeRay Portal Community Edition",
-    "score": 2.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークセキュリティ",
-      "id": 17
-    },
-    "id": 63,
-    "name": "OpenVPN",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データアクセス",
-      "id": 2
-    },
-    "id": 150,
-    "name": "Oracle Berkeley DB",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークコントローラ",
-      "id": 31
-    },
-    "id": 161,
-    "name": "Ryu",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "プロジェクト管理",
-      "id": 14
-    },
-    "id": 91,
-    "name": "OpenProj",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 88,
-    "name": "memcached",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "仮想化",
-      "id": 27
-    },
-    "id": 27,
-    "name": "Xen Hypervisor",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "負荷分散",
-      "id": 30
-    },
-    "id": 89,
-    "name": "UltraMonkey-L7",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
-    },
-    "id": 195,
-    "name": "SpiderMonkey",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ビジネスインテグレーション",
-      "id": 8
-    },
-    "id": 209,
-    "name": "Drools Expert",
-    "score": 2.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
-    },
-    "id": 149,
-    "name": "CodeIgniter",
-    "score": 2.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "スクリプト言語",
-      "id": 35
-    },
-    "id": 187,
-    "name": "Perl",
-    "score": 2.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "オフィススイート",
-      "id": 11
-    },
-    "id": 5,
-    "name": "Apache OpenOffice",
-    "score": 2.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ロギング",
-      "id": 4
-    },
-    "id": 146,
-    "name": "Apache Log4J",
-    "score": 2.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "クラウド",
-      "id": 28
-    },
-    "id": 85,
-    "name": "OpenStack",
-    "score": 2.1
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "OS",
-      "id": 26
-    },
-    "id": 78,
-    "name": "Scientific Linux",
-    "score": 2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 153,
-    "name": "Apache Hbase",
-    "score": 2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Webサーバ",
-      "id": 20
-    },
-    "id": 29,
-    "name": "Squid",
-    "score": 2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ユーティリティ",
-      "id": 18
-    },
-    "id": 104,
-    "name": "GIMP",
-    "score": 2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データベース管理システム",
-      "id": 21
-    },
-    "id": 18,
-    "name": "Apache Cassandra",
-    "score": 1.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データアクセス",
-      "id": 2
-    },
-    "id": 23,
-    "name": "Hibernate",
-    "score": 1.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "OS",
-      "id": 26
-    },
-    "id": 41,
-    "name": "CentOS",
-    "score": 1.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 145,
-    "name": "XOOPS",
-    "score": 1.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "データアクセス",
-      "id": 2
-    },
-    "id": 52,
-    "name": "MyBATIS",
-    "score": 1.9
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "開発",
-      "id": 12
-    },
-    "id": 60,
-    "name": "Apache Ant",
-    "score": 1.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークコントローラ",
-      "id": 31
-    },
-    "id": 162,
-    "name": "Trema",
-    "score": 1.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ビジネスインテグレーション",
-      "id": 8
-    },
-    "id": 79,
-    "name": "Weka",
-    "score": 1.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 201,
-    "name": "Zimbra Collaboration Server",
-    "score": 1.8
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "UIツールキット",
-      "id": 3
-    },
-    "id": 72,
-    "name": "jQuery",
-    "score": 1.7
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークセキュリティ",
-      "id": 17
-    },
-    "id": 65,
-    "name": "OpenSSH",
-    "score": 1.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "プロジェクト管理",
-      "id": 14
-    },
-    "id": 163,
-    "name": "Bugzilla",
-    "score": 1.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コミュニケーション",
-      "id": 10
-    },
-    "id": 28,
-    "name": "Apache OpenMeetings",
-    "score": 1.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 108,
-    "name": "Nagios",
-    "score": 1.6
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 211,
-    "name": "OpenPNE",
-    "score": 1.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "Java/JVM言語",
-      "id": 36
-    },
-    "id": 186,
-    "name": "OpenJDK",
-    "score": 1.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "言語処理系",
-      "id": 5
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "関数型言語",
-      "id": 34
-    },
-    "id": 34,
-    "name": "R",
-    "score": 1.5
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "運用",
-      "id": 13
-    },
-    "id": 167,
-    "name": "RRDtool",
-    "score": 1.5
+    "id": 212,
+    "name": "GateIn Portal",
+    "score": 2.9
   },
   {
     "category": {
@@ -2082,7 +1122,37 @@
     },
     "id": 73,
     "name": "Pacemaker",
-    "score": 1.4
+    "score": 2.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ERP",
+      "id": 6
+    },
+    "id": 47,
+    "name": "ADempiere ERP Business Suite",
+    "score": 2.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 199,
+    "name": "Infinispan",
+    "score": 2.9
   },
   {
     "category": {
@@ -2097,7 +1167,22 @@
     },
     "id": 144,
     "name": "Plone",
-    "score": 1.4
+    "score": 2.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "オフィススイート",
+      "id": 11
+    },
+    "id": 5,
+    "name": "Apache OpenOffice",
+    "score": 2.9
   },
   {
     "category": {
@@ -2107,132 +1192,57 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "ユーティリティ",
-      "id": 18
+      "displayName": "運用",
+      "id": 13
     },
-    "id": 107,
-    "name": "ImageMagick",
-    "score": 1.4
+    "id": 111,
+    "name": "OpsView",
+    "score": 2.9
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
+      "displayName": "ツール",
+      "id": 2
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "UIツールキット",
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 103,
+    "name": "Hinemos",
+    "score": 2.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コミュニケーション",
+      "id": 10
+    },
+    "id": 215,
+    "name": "Aipo",
+    "score": 2.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
       "id": 3
     },
-    "id": 147,
-    "name": "Bootstrap",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
     "childCategory": {
       "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
+      "displayName": "データベース管理システム",
+      "id": 21
     },
-    "id": 142,
-    "name": "NetCommons",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "仮想化",
-      "id": 27
-    },
-    "id": 198,
-    "name": "Kernel-based Virtual Machine",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "アンチウィルス",
-      "id": 16
-    },
-    "id": 76,
-    "name": "Clam Antivirus",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "ツール",
-      "id": 2
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "ネットワークセキュリティ",
-      "id": 17
-    },
-    "id": 71,
-    "name": "OpenSSL",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "アプリケーション",
-      "id": 1
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "コンテンツ管理",
-      "id": 9
-    },
-    "id": 30,
-    "name": "Drupal",
-    "score": 1.3
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "仮想化",
-      "id": 27
-    },
-    "id": 53,
-    "name": "VirtualBox",
-    "score": 1.2
-  },
-  {
-    "category": {
-      "childCategories": null,
-      "displayName": "プラットフォーム",
-      "id": 4
-    },
-    "childCategory": {
-      "childCategories": null,
-      "displayName": "メールサーバ",
-      "id": 33
-    },
-    "id": 55,
-    "name": "Dovecot",
-    "score": 1.2
+    "id": 6,
+    "name": "MySQL",
+    "score": 2.8
   },
   {
     "category": {
@@ -2247,22 +1257,22 @@
     },
     "id": 214,
     "name": "vtiger CRM",
-    "score": 1.2
+    "score": 2.8
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "ライブラリ／フレームワーク",
-      "id": 0
+      "displayName": "ミドルウェア",
+      "id": 3
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "Web APフレームワーク",
-      "id": 1
+      "displayName": "データベース管理システム",
+      "id": 21
     },
-    "id": 61,
-    "name": "Django Framework",
-    "score": 1.2
+    "id": 88,
+    "name": "memcached",
+    "score": 2.8
   },
   {
     "category": {
@@ -2272,12 +1282,252 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "運用",
-      "id": 13
+      "displayName": "ネットワークセキュリティ",
+      "id": 17
     },
-    "id": 45,
-    "name": "Puppet",
-    "score": 1.2
+    "id": 71,
+    "name": "OpenSSL",
+    "score": 2.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "関数型言語",
+      "id": 34
+    },
+    "id": 34,
+    "name": "R",
+    "score": 2.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "クラウド",
+      "id": 28
+    },
+    "id": 85,
+    "name": "OpenStack",
+    "score": 2.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "UIツールキット",
+      "id": 3
+    },
+    "id": 74,
+    "name": "Dojo Toolkit",
+    "score": 2.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "関数型言語",
+      "id": 34
+    },
+    "id": 193,
+    "name": "Haskell",
+    "score": 2.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークサービス",
+      "id": 32
+    },
+    "id": 11,
+    "name": "Samba",
+    "score": 2.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "高可用性",
+      "id": 29
+    },
+    "id": 62,
+    "name": "DRBD",
+    "score": 2.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 153,
+    "name": "Apache Hbase",
+    "score": 2.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "アンチウィルス",
+      "id": 16
+    },
+    "id": 76,
+    "name": "Clam Antivirus",
+    "score": 2.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 211,
+    "name": "OpenPNE",
+    "score": 2.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Webサーバ",
+      "id": 20
+    },
+    "id": 64,
+    "name": "NginX",
+    "score": 2.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ロギング",
+      "id": 4
+    },
+    "id": 146,
+    "name": "Apache Log4J",
+    "score": 2.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 50,
+    "name": "MongoDB",
+    "score": 2.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "アプリケーションサーバ",
+      "id": 19
+    },
+    "id": 2,
+    "name": "Apache Tomcat",
+    "score": 2.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 155,
+    "name": "pgpool-II",
+    "score": 2.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "スクリプト言語",
+      "id": 35
+    },
+    "id": 189,
+    "name": "Python",
+    "score": 2.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "バージョン管理",
+      "id": 15
+    },
+    "id": 44,
+    "name": "git ",
+    "score": 2.3
   },
   {
     "category": {
@@ -2290,9 +1540,24 @@
       "displayName": "Web APフレームワーク",
       "id": 1
     },
-    "id": 56,
-    "name": "Seasar2",
-    "score": 1.1
+    "id": 32,
+    "name": "Spring Framework",
+    "score": 2.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークサービス",
+      "id": 32
+    },
+    "id": 37,
+    "name": "OpenLDAP",
+    "score": 2.2
   },
   {
     "category": {
@@ -2302,12 +1567,132 @@
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "C/C++",
-      "id": 37
+      "displayName": "スクリプト言語",
+      "id": 35
     },
-    "id": 183,
-    "name": "GCC",
-    "score": 1.1
+    "id": 187,
+    "name": "Perl",
+    "score": 2.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "バージョン管理",
+      "id": 15
+    },
+    "id": 207,
+    "name": "CVS",
+    "score": 2.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Java/JVM言語",
+      "id": 36
+    },
+    "id": 186,
+    "name": "OpenJDK",
+    "score": 2.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "OS",
+      "id": 26
+    },
+    "id": 22,
+    "name": "Debian GNU/Linux",
+    "score": 2.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "プロジェクト管理",
+      "id": 14
+    },
+    "id": 82,
+    "name": "Trac",
+    "score": 2.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 38,
+    "name": "Postfix",
+    "score": 2.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コミュニケーション",
+      "id": 10
+    },
+    "id": 20,
+    "name": "Asterisk",
+    "score": 2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 16,
+    "name": "Wordpress",
+    "score": 2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ETL",
+      "id": 23
+    },
+    "id": 26,
+    "name": "Talend Open Studio",
+    "score": 2
   },
   {
     "category": {
@@ -2322,6 +1707,621 @@
     },
     "id": 158,
     "name": "BIND",
+    "score": 2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 8,
+    "name": "Apache Struts",
+    "score": 2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "スクリプト言語",
+      "id": 35
+    },
+    "id": 195,
+    "name": "SpiderMonkey",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "UIツールキット",
+      "id": 3
+    },
+    "id": 72,
+    "name": "jQuery",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "CRM",
+      "id": 7
+    },
+    "id": 13,
+    "name": "SugarCRM",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 202,
+    "name": "Cyrus IMAP Server",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "仮想化",
+      "id": 27
+    },
+    "id": 198,
+    "name": "Kernel-based Virtual Machine",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークサービス",
+      "id": 32
+    },
+    "id": 196,
+    "name": "GlusterFS",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークコントローラ",
+      "id": 31
+    },
+    "id": 75,
+    "name": "Vyatta",
+    "score": 1.9
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データアクセス",
+      "id": 2
+    },
+    "id": 150,
+    "name": "Oracle Berkeley DB",
+    "score": 1.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークコントローラ",
+      "id": 31
+    },
+    "id": 160,
+    "name": "Floodlight",
+    "score": 1.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 105,
+    "name": "GroundWork Monitor",
+    "score": 1.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "バージョン管理",
+      "id": 15
+    },
+    "id": 208,
+    "name": "Mantis",
+    "score": 1.8
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 45,
+    "name": "Puppet",
+    "score": 1.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データアクセス",
+      "id": 2
+    },
+    "id": 14,
+    "name": "Apache Hadoop",
+    "score": 1.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 66,
+    "name": "Amanda Community",
+    "score": 1.7
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データアクセス",
+      "id": 2
+    },
+    "id": 23,
+    "name": "Hibernate",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "仮想化",
+      "id": 27
+    },
+    "id": 53,
+    "name": "VirtualBox",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "言語処理系",
+      "id": 5
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "スクリプト言語",
+      "id": 35
+    },
+    "id": 185,
+    "name": "Lua",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 55,
+    "name": "Dovecot",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 157,
+    "name": "Sendmail",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 12,
+    "name": "Ruby on Rails",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "データベース管理システム",
+      "id": 21
+    },
+    "id": 3,
+    "name": "PostgreSQL",
+    "score": 1.6
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "開発",
+      "id": 12
+    },
+    "id": 164,
+    "name": "Eclipse",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 148,
+    "name": "CakePHP",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "バージョン管理",
+      "id": 15
+    },
+    "id": 165,
+    "name": "Mercurial",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "OS",
+      "id": 26
+    },
+    "id": 41,
+    "name": "CentOS",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 35,
+    "name": "Moodle",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "開発",
+      "id": 12
+    },
+    "id": 49,
+    "name": "Apache Maven",
+    "score": 1.5
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Webサーバ",
+      "id": 20
+    },
+    "id": 90,
+    "name": "lighttpd",
+    "score": 1.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Webサーバ",
+      "id": 20
+    },
+    "id": 1,
+    "name": "Apache HTTP server",
+    "score": 1.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 17,
+    "name": "Zend Framework",
+    "score": 1.4
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 112,
+    "name": "Grails",
+    "score": 1.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コミュニケーション",
+      "id": 10
+    },
+    "id": 28,
+    "name": "Apache OpenMeetings",
+    "score": 1.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ミドルウェア",
+      "id": 3
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "アプリケーションサーバ",
+      "id": 19
+    },
+    "id": 83,
+    "name": "Jetty",
+    "score": 1.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 201,
+    "name": "Zimbra Collaboration Server",
+    "score": 1.3
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ライブラリ／フレームワーク",
+      "id": 0
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "Web APフレームワーク",
+      "id": 1
+    },
+    "id": 151,
+    "name": "Play framework",
+    "score": 1.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "アプリケーション",
+      "id": 1
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "コンテンツ管理",
+      "id": 9
+    },
+    "id": 42,
+    "name": "Joomla!",
+    "score": 1.2
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "プロジェクト管理",
+      "id": 14
+    },
+    "id": 51,
+    "name": "Redmine",
+    "score": 1.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "運用",
+      "id": 13
+    },
+    "id": 205,
+    "name": "SOS JobScheduler",
+    "score": 1.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "ツール",
+      "id": 2
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "ネットワークセキュリティ",
+      "id": 17
+    },
+    "id": 63,
+    "name": "OpenVPN",
+    "score": 1.1
+  },
+  {
+    "category": {
+      "childCategories": null,
+      "displayName": "プラットフォーム",
+      "id": 4
+    },
+    "childCategory": {
+      "childCategories": null,
+      "displayName": "メールサーバ",
+      "id": 33
+    },
+    "id": 156,
+    "name": "qmail",
     "score": 1.1
   },
   {
@@ -2335,23 +2335,23 @@
       "displayName": "ビジネスインテグレーション",
       "id": 8
     },
-    "id": 210,
-    "name": "Jaspersoft Studio",
+    "id": 209,
+    "name": "Drools Expert",
     "score": 1
   },
   {
     "category": {
       "childCategories": null,
-      "displayName": "ミドルウェア",
-      "id": 3
+      "displayName": "アプリケーション",
+      "id": 1
     },
     "childCategory": {
       "childCategories": null,
-      "displayName": "検索エンジン",
-      "id": 24
+      "displayName": "コンテンツ管理",
+      "id": 9
     },
-    "id": 33,
-    "name": "Apache Lucene",
+    "id": 21,
+    "name": "Alfresco",
     "score": 1
   }
 ]

@@ -60,7 +60,7 @@ var RadarBackground = React.createClass({
     var ranks = [];
     for (var i = 1; i <= 4; i++) {
       var y = Constants.RADER_CENTER_Y - (Constants.RADER_SPACING * i) + (Constants.RADER_SPACING / 2);
-      ranks.push(<text key={"ranks-" + i} className="rank-text" x={Constants.RADER_CENTER_X} y={y} font="10px Arial">{i}</text>);
+      ranks.push(<text key={"ranks-" + i} className="rank-text" x={Constants.RADER_CENTER_X} y={y} font="10px Arial">{5 - i}</text>);
     }
     return ranks;
   },

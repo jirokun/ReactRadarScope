@@ -42,6 +42,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler, args) {
       var categories = responses[1].body;
       var products = responses[2].body;
       var dotPosition = RadarStore.calcDotPosition(args.path, yearMonth, ranking, categories, isChildCategory);
+      console.log(dotPosition);
       var props = {
         isChildCategory: isChildCategory,
         ranking: ranking,

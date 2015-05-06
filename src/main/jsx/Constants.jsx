@@ -1,6 +1,6 @@
 module.exports = {
   ROOT_PATH: '/',
-  RADER_RADIUS: 300,
+  RADER_RADIUS: 280,
   RADER_CENTER_X: 320,
   RADER_CENTER_Y: 330,
   RADER_COLOR: '#666666',
