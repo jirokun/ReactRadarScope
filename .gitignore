@@ -1,3 +1,9 @@
 *.swp
 node_modules/
 dist
+.classpath
+.gradle/
+.project
+.settings/
+build/
+target/
