@@ -1,5 +1,4 @@
 var React = require('react');
-var uuid = require('node-uuid');
 var Dot = require('./Dot');
 var RadarStore = require('../stores/RadarStore');
 var Constants = require('../Constants');

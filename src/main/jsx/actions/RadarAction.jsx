@@ -7,12 +7,6 @@ var RadarAction = {
       actionType: Constants.UPDATE_SELECTED_OSS,
       ossId: ossId
     });
-  },
-  loadData: function(yearMonth) {
-    RadarDispatcher.dispatch({
-      actionType: Constants.LOAD_DATA,
-      yearMonth: yearMonth 
-    });
   }
 };
 

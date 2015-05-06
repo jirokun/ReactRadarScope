@@ -1,5 +1,4 @@
 var React = require('react');
-var uuid = require('node-uuid');
 var Constants = require('../Constants');
 var Router = require('react-router'); 
 var Link = Router.Link;
