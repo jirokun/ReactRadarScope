@@ -1,0 +1,224 @@
+[
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "WebAPフレームワーク",
+        "id": 1
+      },
+      {
+        "childCategories": null,
+        "displayName": "データアクセス",
+        "id": 2
+      },
+      {
+        "childCategories": null,
+        "displayName": "UIツールキット",
+        "id": 3
+      },
+      {
+        "childCategories": null,
+        "displayName": "ロギング",
+        "id": 4
+      },
+      {
+        "childCategories": null,
+        "displayName": ".NET",
+        "id": 5
+      }
+    ],
+    "displayName": "ライブラリ／フレームワーク",
+    "id": 0
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "ERP",
+        "id": 6
+      },
+      {
+        "childCategories": null,
+        "displayName": "CRM",
+        "id": 7
+      },
+      {
+        "childCategories": null,
+        "displayName": "ビジネスインテグレーション",
+        "id": 8
+      },
+      {
+        "childCategories": null,
+        "displayName": "コンテンツ管理",
+        "id": 9
+      },
+      {
+        "childCategories": null,
+        "displayName": "コミュニケーション",
+        "id": 10
+      },
+      {
+        "childCategories": null,
+        "displayName": "オフィススイート",
+        "id": 11
+      }
+    ],
+    "displayName": "アプリケーション",
+    "id": 1
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "開発",
+        "id": 12
+      },
+      {
+        "childCategories": null,
+        "displayName": "運用",
+        "id": 13
+      },
+      {
+        "childCategories": null,
+        "displayName": "プロジェクト管理",
+        "id": 14
+      },
+      {
+        "childCategories": null,
+        "displayName": "バージョン管理",
+        "id": 15
+      },
+      {
+        "childCategories": null,
+        "displayName": "アンチウィルス",
+        "id": 16
+      },
+      {
+        "childCategories": null,
+        "displayName": "ネットワークセキュリティ",
+        "id": 17
+      },
+      {
+        "childCategories": null,
+        "displayName": "ユーティリティ",
+        "id": 18
+      }
+    ],
+    "displayName": "ツール",
+    "id": 2
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "アプリケーションサーバ",
+        "id": 19
+      },
+      {
+        "childCategories": null,
+        "displayName": "Webサーバ",
+        "id": 20
+      },
+      {
+        "childCategories": null,
+        "displayName": "データベース管理システム",
+        "id": 21
+      },
+      {
+        "childCategories": null,
+        "displayName": "セキュリティ",
+        "id": 22
+      },
+      {
+        "childCategories": null,
+        "displayName": "ETL",
+        "id": 23
+      },
+      {
+        "childCategories": null,
+        "displayName": "検索エンジン",
+        "id": 24
+      },
+      {
+        "childCategories": null,
+        "displayName": "シングルサインオン",
+        "id": 25
+      }
+    ],
+    "displayName": "ミドルウェア",
+    "id": 3
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "OS",
+        "id": 26
+      },
+      {
+        "childCategories": null,
+        "displayName": "仮想化",
+        "id": 27
+      },
+      {
+        "childCategories": null,
+        "displayName": "クラウド",
+        "id": 28
+      },
+      {
+        "childCategories": null,
+        "displayName": "高可用性",
+        "id": 29
+      },
+      {
+        "childCategories": null,
+        "displayName": "負荷分散",
+        "id": 30
+      },
+      {
+        "childCategories": null,
+        "displayName": "ネットワークコントローラ",
+        "id": 31
+      },
+      {
+        "childCategories": null,
+        "displayName": "ネットワークサービス",
+        "id": 32
+      },
+      {
+        "childCategories": null,
+        "displayName": "メールサーバ",
+        "id": 33
+      }
+    ],
+    "displayName": "プラットフォーム",
+    "id": 4
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": null,
+        "displayName": "関数型言語",
+        "id": 34
+      },
+      {
+        "childCategories": null,
+        "displayName": "スクリプト言語",
+        "id": 35
+      },
+      {
+        "childCategories": null,
+        "displayName": "Java/JVM言語",
+        "id": 36
+      },
+      {
+        "childCategories": null,
+        "displayName": "C/C++",
+        "id": 37
+      }
+    ],
+    "displayName": "言語処理系",
+    "id": 5
+  }
+]
+
